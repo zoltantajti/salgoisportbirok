@@ -13,6 +13,10 @@ $route['my-cars/edit/(:num)'] = 'welcome/mycars/edit/$1';
 $route['my-cars/rem/(:num)'] = 'welcome/mycars/rem/$1';
 $route['my-cars/noCar'] = 'welcome/mycars/noCar';
 $route['my-cars/haveCar'] = 'welcome/mycars/haveCar';
+$route['calendar'] = 'welcome/calendar';
+$route['event/(:num)'] = 'welcome/event/$1';
+$route['event/(:num)/join'] = 'welcome/event/$1/join';
+$route['my-events'] = 'welcome/myEvents';
 
 $route['admin/allow/(:num)'] = 'admin/allowUser/$1';
 $route['admin/deny/(:num)'] = 'admin/denyUser/$1';

@@ -15,10 +15,14 @@ class Welcome extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-		if(!isset($_SESSION['login'])) $_SESSION['login'] = false;
+		if(!isset($_SESSION['login'])){
+			$_SESSION['login'] = false;
+			redirect('index');
+		};
 	}
 	public function index()
 	{
+		if($this->User->isGuest() == false){ redirect('dashboard'); };
 		$this->form_validation->set_rules("email","E-mail cím","trim|valid_email|required", $this->errorMsg);
 		$this->form_validation->set_rules("password","Jelszó","trim|required|min_length[6]", $this->errorMsg);
 		if($this->form_validation->run() == false){
@@ -137,5 +141,35 @@ class Welcome extends CI_Controller {
 			$this->Db->delete("user_cars","WHERE credentialsID='".$_SESSION['user']['ID']."'");
 			redirect('my-cars/add');
 		}
+	}
+	
+	public function calendar()
+	{
+		$this->data['e'] = $this->Events->getUpcomming();
+		$this->data['m'] = "calendar";
+		$this->load->view('sportbiro/index', $this->data);
+	}
+	public function event($id, $f = "open")
+	{
+		if($f == "open"){
+			$this->data['e'] = $this->Events->getAll("WHERE id='".$id."'")[0];
+        	$this->data['m'] = "a_events_open";
+        	$this->load->view('sportbiro/index', $this->data);
+		}elseif($f == "join"){
+			$this->form_validation->set_rules('carID','Autó','trim|required',$this->errorMsg);
+			if($this->form_validation->run() == false){
+				$this->data['e'] = $this->Events->getAll("WHERE id='".$id."'")[0];
+        		$this->data['m'] = "a_event_join";
+        		$this->load->view('sportbiro/index', $this->data);
+			}else{
+				$this->Events->join($this->input->post(), $id);
+			}
+		}
+	}
+	public function myEvents()
+	{
+		$this->data['e'] = $this->Events->getJoinedEventByUserId($_SESSION['user']['ID']);
+        $this->data['m'] = "myEvents";
+        $this->load->view('sportbiro/index', $this->data);
 	}
 }
