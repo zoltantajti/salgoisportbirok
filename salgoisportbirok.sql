@@ -11,7 +11,7 @@
  Target Server Version : 100413
  File Encoding         : 65001
 
- Date: 26/05/2023 03:58:35
+ Date: 31/05/2023 08:10:26
 */
 
 SET NAMES utf8mb4;
@@ -36,6 +36,25 @@ CREATE TABLE `credentials`  (
 INSERT INTO `credentials` VALUES (1, 'zoltan.tajti92@gmail.com', '178aea561001debe92486ee54d6a986349dfd210c93d746ee8967845fcbdae2dd2f335334fd21e5a020e951cb1d9bd304a2db924228a2976dcde03d48228c594', 4, 1);
 
 -- ----------------------------
+-- Table structure for event_joins
+-- ----------------------------
+DROP TABLE IF EXISTS `event_joins`;
+CREATE TABLE `event_joins`  (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `credentialsID` int NULL DEFAULT NULL,
+  `eventID` int NULL DEFAULT NULL,
+  `approved` int NULL DEFAULT NULL,
+  `joinDate` datetime NULL DEFAULT NULL,
+  `carID` int NULL DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8 COLLATE = utf8_hungarian_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of event_joins
+-- ----------------------------
+INSERT INTO `event_joins` VALUES (2, 1, 3, 0, '2023-05-26 04:58:41', 1);
+
+-- ----------------------------
 -- Table structure for events
 -- ----------------------------
 DROP TABLE IF EXISTS `events`;
@@ -48,11 +67,13 @@ CREATE TABLE `events`  (
   `description` longtext CHARACTER SET utf8 COLLATE utf8_hungarian_ci NULL,
   `image` varchar(255) CHARACTER SET utf8 COLLATE utf8_hungarian_ci NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 2 CHARACTER SET = utf8 COLLATE = utf8_hungarian_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 4 CHARACTER SET = utf8 COLLATE = utf8_hungarian_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of events
 -- ----------------------------
+INSERT INTO `events` VALUES (2, 'Salgó Rally', '2023-05-26', '2023-05-20', 'Salgótarján, Magyarország', 'Salgó Rally.\r\n\r\nSaját gyors: Mátraalmás - Nagybátony', NULL);
+INSERT INTO `events` VALUES (3, 'Eger Rally', '2023-06-15', '2023-06-10', 'Eger, Magyarország', 'Eger Rally. Saját szakasszal.', NULL);
 
 -- ----------------------------
 -- Table structure for permissions
