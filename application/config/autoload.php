@@ -6,4 +6,4 @@ $autoload['drivers'] = array();
 $autoload['helper'] = array('form','url');
 $autoload['config'] = array();
 $autoload['language'] = array();
-$autoload['model'] = array('Db','Msg','User','Cars','Events');
+$autoload['model'] = array('Db','Msg','User','Cars','Events','InvLinks','Texts');

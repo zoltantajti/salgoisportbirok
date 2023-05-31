@@ -172,4 +172,92 @@ class Welcome extends CI_Controller {
         $this->data['m'] = "myEvents";
         $this->load->view('sportbiro/index', $this->data);
 	}
+
+	public function secus($f = "list", $id = -1)
+	{
+		$this->User->protect();
+		if($f == "list" && $id = -1)
+		{
+			$this->data['m'] = "secus_list";
+			$this->data['s'] = $this->User->getMySecus();
+			$this->load->view('sportbiro/index', $this->data);
+		}
+		elseif($f == "new" && $id == -1)
+		{
+			$this->form_validation->set_rules("fullName","Teljes név","trim|required", $this->errorMsg);
+			$this->form_validation->set_rules("idcardno","Személyi ig. szám","trim|required", $this->errorMsg);
+			$this->form_validation->set_rules("bornplace","Születési hely","trim|required", $this->errorMsg);
+			$this->form_validation->set_rules("borndate_y","Születési idő (év)","trim|required", $this->errorMsg);
+			$this->form_validation->set_rules("borndate_m","Születési idő (hó)","trim|required", $this->errorMsg);
+			$this->form_validation->set_rules("borndate_d","Születési idő (nap)","trim|required", $this->errorMsg);
+
+			$this->form_validation->set_rules("postcode","Irányítószám","trim|required", $this->errorMsg);
+			$this->form_validation->set_rules("city","Város","trim|required", $this->errorMsg);
+			$this->form_validation->set_rules("address","Utca, házszám, emelet, ajtó","trim|required", $this->errorMsg);
+			$this->form_validation->set_rules("phoneNo","Telefonszám","trim|required", $this->errorMsg);
+
+			$this->form_validation->set_rules("vatNo","Adószám","trim|required", $this->errorMsg);
+			$this->form_validation->set_rules("tajNo","TAJ szám","trim|required", $this->errorMsg);
+			$this->form_validation->set_rules("email","E-mail cím","trim|required|valid_email", $this->errorMsg);
+			if($this->form_validation->run() == false){
+				$this->data['m'] = "secus_form";
+				$this->data['f'] = $f;
+				$this->data['p'] = array();
+				$this->load->view('sportbiro/index', $this->data);
+			}else{
+				$this->User->saveSecus($this->input->post());
+			}
+		}elseif($f == "edit" && $id > 0)
+		{
+			$this->form_validation->set_rules("fullName","Teljes név","trim|required", $this->errorMsg);
+			$this->form_validation->set_rules("idcardno","Személyi ig. szám","trim|required", $this->errorMsg);
+			$this->form_validation->set_rules("bornplace","Születési hely","trim|required", $this->errorMsg);
+			$this->form_validation->set_rules("borndate_y","Születési idő (év)","trim|required", $this->errorMsg);
+			$this->form_validation->set_rules("borndate_m","Születési idő (hó)","trim|required", $this->errorMsg);
+			$this->form_validation->set_rules("borndate_d","Születési idő (nap)","trim|required", $this->errorMsg);
+
+			$this->form_validation->set_rules("postcode","Irányítószám","trim|required", $this->errorMsg);
+			$this->form_validation->set_rules("city","Város","trim|required", $this->errorMsg);
+			$this->form_validation->set_rules("address","Utca, házszám, emelet, ajtó","trim|required", $this->errorMsg);
+			$this->form_validation->set_rules("phoneNo","Telefonszám","trim|required", $this->errorMsg);
+
+			$this->form_validation->set_rules("vatNo","Adószám","trim|required", $this->errorMsg);
+			$this->form_validation->set_rules("tajNo","TAJ szám","trim|required", $this->errorMsg);
+			if($this->form_validation->run() == false){
+				$this->data['m'] = "secus_form";
+				$this->data['f'] = $f;
+				$this->data['p'] = $this->User->getMySecusById($id)[0];
+				$this->load->view('sportbiro/index', $this->data);
+			}else{
+				$this->User->editSecus($this->input->post(),$id);
+			}
+		}elseif($f == "rem" && $id > 0)
+		{
+			$this->User->remSecus($id);
+		}
+	}
+
+	public function invlinks($f = "list", $id = -1)
+	{
+		if($f == "list" && $id == -1)
+		{
+			$this->data['inv'] = $this->InvLinks->getMy();
+			$this->data['m'] = "myInvLinks";
+        	$this->load->view('sportbiro/index', $this->data);
+		}
+		elseif($f == "generate" && $id == -1)
+		{
+			$this->InvLinks->generate();
+		}
+		elseif($f == "open" && $id > 0)
+		{
+			$this->data['inv'] = $this->InvLinks->getById($id);
+			$this->data['m'] = "myInvLinks_sharer";
+        	$this->load->view('sportbiro/index', $this->data);
+		}elseif($f == "rem" && $id > 0)
+		{
+			$this->InvLinks->Remove($id);
+		}
+	}
+
 }

@@ -37,6 +37,7 @@
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: var(--base-blue);
     --bs-btn-disabled-border-color: var(--base-blue);
+    --bs-btn-disabled-cursor: not-allowed;
 }
 .error{
     color: var(--error);
@@ -123,3 +124,5 @@
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
 }
+
+.disabled{cursor: not-allowed !important;}

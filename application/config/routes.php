@@ -17,9 +17,23 @@ $route['calendar'] = 'welcome/calendar';
 $route['event/(:num)'] = 'welcome/event/$1';
 $route['event/(:num)/join'] = 'welcome/event/$1/join';
 $route['my-events'] = 'welcome/myEvents';
+$route['secus'] = 'welcome/secus/list';
+$route['secus/list'] = 'welcome/secus/list';
+$route['secus/new'] = 'welcome/secus/new';
+$route['secus/edit/(:num)'] = 'welcome/secus/edit/$1';
+$route['secus/rem/(:num)'] = 'welcome/secus/rem/$1';
+$route['invlinks'] = 'welcome/invlinks';
+$route['invlinks/generate'] = 'welcome/invlinks/generate';
+$route['invlinks/open/(:num)'] = 'welcome/invlinks/open/$1';
+$route['invlinks/rem/(:num)'] = 'welcome/invlinks/rem/$1';
+
 
 $route['admin/allow/(:num)'] = 'admin/allowUser/$1';
 $route['admin/deny/(:num)'] = 'admin/denyUser/$1';
+
+//External links
+$route['invite/success'] = 'Invite/success';
+$route['invite/(:any)'] = 'Invite/accept/$1';
 
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';

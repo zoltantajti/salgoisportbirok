@@ -17,7 +17,11 @@
                         <?php }else{ ?>
                             <center>
                                 <a href="event/<?=$v['id']?>" class="btn btn-info">Részletek<a>
-                                <a href="event/<?=$v['id']?>/join" class="btn btn-info">Jelentkezem<a>
+                                <?php if(!$this->Events->hasEventByUserId($_SESSION['user']['ID'], $v['id'])){ ?>
+									<a href="event/<?=$v['id']?>/join" class="btn btn-info">Jelentkezem<a>
+								<?php }else{ ?>
+									<a href="javascript:;" disabled class="btn btn-success disabled btn-disabled">Jelentkeztél!<a>
+								<?php }; ?>
                             </center>
                         <?php }; ?>
 					</div>

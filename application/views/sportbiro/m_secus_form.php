@@ -1,16 +1,16 @@
 <main class="content">
 	<div class="container-fluid p-0">
-    	<h1 class="h3 mb-3">Profilom szerkesztése</h1>
+		<h1 class="h3 mb-3"><?=($f == "new") ? "Új pályabiztosító" : "Pályabiztosító adatainak szerkesztése" ?></h1>
 		<div class="row">
 			<div class="col-12">
 				<div class="card">
                     <form method="POST">
-					    <div class="card-header">
-						    <button type="submit" class="btn btn-info">Mentés</button>
-                            <a href="dashboard" class="btn btn-info">Mégse</a>
-					    </div>
-					    <div class="card-body">
-                            <?php echo validation_errors('<div class="row"><div class="col-md-12"><div class="error">', '</div></div></div>'); ?>
+					<div class="card-header">
+						<button type="submit" class="btn btn-info">Mentés</button>
+                        <a href="secus/list" class="btn btn-info">Mégse</a>
+					</div>
+					<div class="card-body">
+                    <?php echo validation_errors('<div class="row"><div class="col-md-12"><div class="error">', '</div></div></div>'); ?>
                             <?=$this->Msg->get(); ?>
                             <div class="row">
                                 <div class="col-md-4">
@@ -29,7 +29,7 @@
 									</div>
                                     <div class="mb-3">
                                         <?php
-                                            $bd = explode("-", $p['borndate']);
+                                            @$bd = explode("-", $p['borndate']);
                                         ?>
 									    <label class="form-label">Születési dátum:</label>
                                         <div class="row">
@@ -64,8 +64,9 @@
                                         </div>
 									</div>
                                     <div class="mb-3">
-                                        <label class="form-label">E-mail cím: <span class="text-muted">Nem módosítható!</span></label>
-                                        <input class="form-control form-control-lg disabled" type="text" value="<?=@$u['email']?>" readonly disabled/>
+                                        <label class="form-label">E-mail cím: <span class="text-muted"><?=($f == "new") ? "" : "Nem módosítható!"?></span></label>
+                                        <?php $disabled = ($f == "new") ? "" : "disabled"; $readonly = ($f == "new") ? "" : "readonly"; ?>
+                                        <input class="form-control form-control-lg <?=$disabled?>" type="email" name="email" value="<?=@$p['email']?>" <?=$readonly?> <?=$disabled?>/>
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label">Telefonszám:</label>
@@ -83,8 +84,7 @@
                                         <input class="form-control form-control-lg" type="text"  name="tajNo" placeholder="TAJ szám" value="<?=@$p['tajNo']?>" />
                                     </div>
                                 </div>
-                            </div>                            
-					    </div>
+					</div>
                     </form>
 				</div>
 			</div>

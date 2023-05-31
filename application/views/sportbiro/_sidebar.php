@@ -39,6 +39,21 @@
                 </a>
             </li>
 
+            <li class="sidebar-header">
+				Pályabiztosítóim
+			</li>
+            <li class="sidebar-item <?=($m == "secus") ? "active" : "" ?>">
+				<a class="sidebar-link" href="secus">
+                    <i class="align-middle" data-feather="users"></i> <span class="align-middle">Pályabiztosítóim</span>
+                </a>
+            </li>
+            <li class="sidebar-item <?=($m == "invlinks") ? "active" : "" ?>">
+				<a class="sidebar-link" href="invlinks">
+                    <i class="align-middle" data-feather="share-2"></i> <span class="align-middle">Meghívó linkek</span>
+                </a>
+            </li>
+
+
             <?php if($perm >= 2){ /*Moderátor*/ ?>
             <li class="sidebar-header">
 				Admin

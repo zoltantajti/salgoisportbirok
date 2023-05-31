@@ -120,6 +120,38 @@ class User extends CI_Model
         return $this->Db->sqla("credentials","*","INNER JOIN user_profile ON credentials.id = user_profile.credentialsID WHERE credentials.id='".$id."'")[0];
     }
 
+    public function getMySecus()
+    {
+        return $this->Db->sqla("persons","*","WHERE marshalID='".$_SESSION['user']['ID']."'");
+    }
+    public function getMySecusById($id)
+    {
+        return $this->Db->sqla("persons","*","WHERE marshalID='".$_SESSION['user']['ID']."' AND id='".$id."'");
+    }
+    public function saveSecus($p)
+    {
+        $p['marshalID'] = $_SESSION['user']['ID'];
+        $p['borndate'] = $p['borndate_y']."-".$p['borndate_m']."-".$p['borndate_d'];
+        unset($p['borndate_y'],$p['borndate_m'],$p['borndate_d']);
+        $this->Db->insert("persons",$p);
+        $this->Msg->set("A pályabiztosítód adatainak mentése sikeres", "", "success");
+        redirect('secus/list');
+    }
+    public function editSecus($p,$id)
+    {
+        $p['borndate'] = $p['borndate_y']."-".$p['borndate_m']."-".$p['borndate_d'];
+        unset($p['borndate_y'],$p['borndate_m'],$p['borndate_d']);
+        $this->Db->update("persons",$p,"WHERE id='".$id."'");
+        $this->Msg->set("A pályabiztosítód adatainak szerkesztése sikeres", "", "success");
+        redirect('secus/list');
+    }
+    public function remSecus($id)
+    {
+        $this->Db->delete("persons", "WHERE id='".$id."' AND marshalID='".$_SESSION['user']['ID']."'");
+        $this->Msg->set("A pályabiztosítód adatainak törlése sikeres", "", "success");
+        redirect('secus/list');
+    }
+
     //Private
     private function hash($string)
     {

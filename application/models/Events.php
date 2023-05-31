@@ -51,5 +51,14 @@ class Events extends CI_Model
         ");
         return $data;
     }
+    public function hasEventByUserId($id, $eID)
+    {
+        $data = $this->Db->sqln("event_joins","*","
+        INNER JOIN events ON event_joins.eventID = events.id
+        WHERE event_joins.credentialsID = '".$id."' AND 
+        events.id = '".$eID."'
+        ");
+        return ($data == 1) ? true : false;
+    }
 }
 ?>
