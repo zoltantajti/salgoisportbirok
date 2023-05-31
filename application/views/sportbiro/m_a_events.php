@@ -27,6 +27,8 @@
                                     <td><?=$v['startDate']?></td>
                                     <td><?=$v['joinDate']?></td>
                                     <td>
+                                        <a href="admin/events/infos/<?=$v['id']?>"><i class="fa fa-fw fa-info"></i></a>
+                                        <a href="admin/events/joins/<?=$v['id']?>"><i class="fa fa-fw fa-users"></i></a>
                                         <a href="admin/events/edit/<?=$v['id']?>"><i class="fa fa-fw fa-pencil"></i></a>
                                         <a href="admin/events/rem/<?=$v['id']?>"><i class="fa fa-fw fa-trash"></i></a>
                                     </td>

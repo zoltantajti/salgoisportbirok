@@ -38,7 +38,7 @@ class Admin extends CI_Controller {
         $this->load->view('sportbiro/index', $this->data);
     }
 
-    public function events($f = "list", $id = -1)
+    public function events($f = "list", $id = -1, $uid = -1)
     {
         if($f == "list" && $id == -1)
         {
@@ -53,14 +53,15 @@ class Admin extends CI_Controller {
             $this->form_validation->set_rules("startDate","Esemény kezdete","trim|required", $this->errorMsg);
             $this->form_validation->set_rules("joinDate","Jelentkezési határidő","trim|required", $this->errorMsg);
             $this->form_validation->set_rules("description","Leírás","trim|required", $this->errorMsg);
-
+            $this->form_validation->set_rules("image","Kép","trim", $this->errorMsg);
             if($this->form_validation->run() == false){
                 $this->data['m'] = "a_events_new";
                 $this->load->view('sportbiro/index', $this->data);
             }else{
                 $this->Events->add($this->input->post());
             }
-        }elseif($f == "edit" && $id > 0)
+        }
+        elseif($f == "edit" && $id > 0)
         {
             $this->data['e'] = $this->Events->getAll("WHERE id='".$id."'")[0];
             $this->form_validation->set_rules("name","Név","trim|required", $this->errorMsg);
@@ -74,18 +75,50 @@ class Admin extends CI_Controller {
             }else{
                 $this->Events->edit($this->input->post(), $id);
             }
-        }elseif($f == "open" && $id > 0)
+        }
+        elseif($f == "open" && $id > 0)
         {
             $this->data['e'] = $this->Events->getAll("WHERE id='".$id."'")[0];
             $this->data['m'] = "a_events_open";
             $this->load->view('sportbiro/index', $this->data);
-        }elseif($f == "rem" && $id > 0)
+        }
+        elseif($f == "rem" && $id > 0)
         {
             $this->Events->delete($id);
         }
+        elseif($f == "joins" && $id > 0)
+        {
+            $this->data['e'] = $this->Events->getAll("WHERE id='".$id."'")[0];
+            $this->data['u'] = $this->Db->sqla("event_joins","*","
+                INNER JOIN user_profile ON user_profile.id = event_joins.credentialsID
+                INNER JOIN user_cars ON user_cars.id = event_joins.carID 
+                WHERE event_joins.eventID = '".$id."'
+            ");
+            $this->data['m'] = "a_events_joins";
+            $this->load->view('sportbiro/index', $this->data);
+        }
+        elseif($f == "approve" && $id > 0 && $uid > 0)
+        {
+            $this->Db->update("event_joins",array("status"=>"approved"),"WHERE eventID='".$id."' AND credentialsID='".$uid."'");
+            $this->Msg->set("Elfogadtad a jelentkezést","","success");
+            redirect('admin/events/joins/' . $id);
+        }
+        elseif($f == "deny" && $id > 0 && $uid > 0)
+        {
+            $this->Db->update("event_joins",array("status"=>"deny"),"WHERE eventID='".$id."' AND credentialsID='".$uid."'");
+            $this->Msg->set("Elutasítottad a jelentkezést","","success");
+            redirect('admin/events/joins/' . $id);
+        }
+        elseif($f == "infos" && $id > 0)
+        {
+            
+        }
+        elseif($f == "schedule" && $id > 0)
+        {
+            
+        }
     }
-
-
+    
     public function allowUser($id)
     {
         $this->protect(2);

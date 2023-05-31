@@ -5,13 +5,15 @@
             <?php foreach($e as $k=>$v){ ?>
 			<div class="col-12 col-md-4">
 				<div class="card">
-					<div class="card-header">
+					<img src="<?=$v['image']?>" class="card-img-top" alt="">	
+					<div class="card-header text-center">
 						<h5 class="card-title mb-0"><?=$v['name']?></h5>
-					</div>
-					<div class="card-body">
+					</div>					
+					<div class="card-body text-center">
                         <b>Helyszín: </b><?=$v['location']?><br/>
                         <b>Kezdés: </b><?=str_replace('-','.',$v['startDate'])?><br/>
                         <b>Jelentkezési határidő: </b><?=str_Replace('-','.',$v['joinDate'])?><br/>
+						<hr/>
                         <?php if($v['joinDate'] < date("Y-m-d")){ ?>
                             <div class="alert alert-danger">A jelentkezési határidő lejárt!</div>
                         <?php }else{ ?>

@@ -260,4 +260,19 @@ class Welcome extends CI_Controller {
 		}
 	}
 
+
+
+	public function debug()
+	{
+		$mp = $this->Db->sqla("event_schedule_bak","TrackLine","WHERE eventID='4'")[0]['TrackLine'];
+		foreach(json_decode($mp,true) as $k=>$v){
+			$a = array(
+				'eventID' => 4,
+				'point' => $v[0].','.$v[1],
+				'type' => "TRACKLINE",
+				'description' => ""
+			);
+			$this->Db->insert('event_schedule', $a);
+		}
+	}
 }

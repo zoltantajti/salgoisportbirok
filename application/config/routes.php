@@ -30,6 +30,9 @@ $route['invlinks/rem/(:num)'] = 'welcome/invlinks/rem/$1';
 
 $route['admin/allow/(:num)'] = 'admin/allowUser/$1';
 $route['admin/deny/(:num)'] = 'admin/denyUser/$1';
+$route['admin/events/joins/(:num)'] = 'admin/events/joins/$1';
+$route['admin/events/approve/(:num)/(:num)'] = 'admin/events/approve/$1/$2';
+$route['admin/events/deny/(:num)/(:num)'] = 'admin/events/approve/$1/$2';
 
 //External links
 $route['invite/success'] = 'Invite/success';

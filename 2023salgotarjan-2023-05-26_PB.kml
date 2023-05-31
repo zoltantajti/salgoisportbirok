@@ -1,0 +1,2095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<name>Hauserresults.hu 2023salgotarjan_PB-2023-05-26</name>
+<open>1</open>
+	<Style id="sn_ArrowK_E">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowK_E.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowK_N">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowK_N.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowK_NE">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowK_NE.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowK_NW">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowK_NW.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowK_S">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowK_S.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowK_SE">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowK_SE.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowK_SW">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowK_SW.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowK_W">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowK_W.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowL_E">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowL_E.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowL_N">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowL_N.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowL_NE">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowL_NE.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowL_NW">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowL_NW.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowL_S">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowL_S.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowL_SE">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowL_SE.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowL_SW">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowL_SW.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowL_W">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowL_W.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowS_E">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowS_E.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowS_N">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowS_N.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowS_NE">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowS_NE.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowS_NW">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowS_NW.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowS_S">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowS_S.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowS_SE">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowS_SE.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowS_SW">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowS_SW.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowS_W">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowS_W.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowZ_E">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowZ_E.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowZ_N">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowZ_N.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowZ_NE">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowZ_NE.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowZ_NW">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowZ_NW.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowZ_S">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowZ_S.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowZ_SE">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowZ_SE.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowZ_SW">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowZ_SW.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ArrowZ_W">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ArrowZ_W.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_Arrow_E">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/Arrow_E.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_Arrow_N">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/Arrow_N.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_Arrow_NE">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/Arrow_NE.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_Arrow_NW">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/Arrow_NW.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_Arrow_S">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/Arrow_S.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_Arrow_SE">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/Arrow_SE.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_Arrow_SW">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/Arrow_SW.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_Arrow_W">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/Arrow_W.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_Cel">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/Cel.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_Finish">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/Finish.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_Flag">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/Flag.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_IE">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/IE.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_JumpB_R">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/JumpB_R.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_JumpB_RJ">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/JumpB_RJ.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_JumpJ_R">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/JumpJ_R.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_JumpJ_RJ">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/JumpJ_RJ.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_L">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/L.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_LT">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/LT.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_LT_R">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/LT_R.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_LT_RC_RJ">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/LT_RC_RJ.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_LT_RJ">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/LT_RJ.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_L_R">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/L_R.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_L_RC_RJ">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/L_RC_RJ.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_L_RJ">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/L_RJ.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_Nezo">
+		<IconStyle>
+			<scale>0.32</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/Nezo.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_PF">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/PF.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_Parkolo">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/Parkolo.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_R">
+		<IconStyle>
+			<scale>0.24</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/R.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_RC">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/RC.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_RC_RJ">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/RC_RJ.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_RJ">
+		<IconStyle>
+			<scale>0.24</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/RJ.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_RZ">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/RZ.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_Rajt">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/Rajt.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_Service">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/Service.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_Start">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/Start.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_Stop">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/Stop.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_Szerviz">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/Szerviz.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_TB">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/TB.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_TB_R">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/TB_R.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_TB_RC_RJ">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/TB_RC_RJ.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_TB_RJ">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/TB_RJ.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_TC">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/TC.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_TJ">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/TJ.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_TJ_R">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/TJ_R.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_TJ_RC_RJ">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/TJ_RC_RJ.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_TJ_RJ">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/TJ_RJ.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_TZ">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/TZ.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_Tiltott">
+		<IconStyle>
+			<scale>0.32</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/Tiltott.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ssi_gps">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ssi_gps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="sn_ssi_stopper">
+		<IconStyle>
+			<scale>0.4</scale>
+			<color>80ffffff</color>
+			<Icon>
+				<href>https://hauserresults.hu/live/gfx/kml/ssi_stopper.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>c0ffffff</color>
+		</LabelStyle>
+	</Style>
+
+	<Style id="track_SS">
+		<LineStyle>
+			<color>80ff55ff</color>
+			<width>14</width>
+		</LineStyle>
+	</Style>
+
+	<Style id="track_Etap">
+		<LineStyle>
+			<color>80e08888</color>
+			<width>10</width>
+		</LineStyle>
+	</Style>
+
+	<Style id="track_Szerviz">
+		<LineStyle>
+			<color>80008800</color>
+			<width>10</width>
+		</LineStyle>
+	</Style>
+
+	<Style id="track__">
+		<LineStyle>
+			<color>80aaaa55</color>
+			<width>10</width>
+		</LineStyle>
+	</Style>
+
+	<Style id="track_">
+		<LineStyle>
+			<color>80aaaa55</color>
+			<width>10</width>
+		</LineStyle>
+	</Style>
+  <Folder>
+    <name>Waypoints</name>
+    <open>0</open>
+	<Placemark>
+		<name>Csapatvez., tréler</name>
+		<description></description>
+		<styleUrl>#sn_Parkolo</styleUrl>
+		<Point>
+			<coordinates>19.82396,48.133162,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Parc fermé</name>
+		<description></description>
+		<styleUrl>#sn_PF</styleUrl>
+		<Point>
+			<coordinates>19.822414,48.132373,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Szervíz</name>
+		<description></description>
+		<styleUrl>#sn_Service</styleUrl>
+		<Point>
+			<coordinates>19.807374,48.116468,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Versenyközpont, HQ</name>
+		<description></description>
+		<styleUrl>#sn_Flag</styleUrl>
+		<Point>
+			<coordinates>19.809574,48.111466,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name></name>
+		<description></description>
+		<styleUrl>#sn_Arrow_N</styleUrl>
+		<Point>
+			<coordinates>19.800996,48.122311,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name></name>
+		<description></description>
+		<styleUrl>#sn_Arrow_SE</styleUrl>
+		<Point>
+			<coordinates>19.809311,48.119196,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>~ Gyűjtő KI</name>
+		<description></description>
+		<styleUrl>#sn_IE</styleUrl>
+		<Point>
+			<coordinates>19.807604,48.126414,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>~ Szervíz BE</name>
+		<description></description>
+		<styleUrl>#sn_IE</styleUrl>
+		<Point>
+			<coordinates>19.810116,48.108568,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>~ T.zóna BE</name>
+		<description></description>
+		<styleUrl>#sn_IE</styleUrl>
+		<Point>
+			<coordinates>19.809618,48.108051,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>~Szervíz KI</name>
+		<description></description>
+		<styleUrl>#sn_IE</styleUrl>
+		<Point>
+			<coordinates>19.805775,48.125868,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>   </name>
+		<description></description>
+		<styleUrl>#sn_Nezo</styleUrl>
+		<Point>
+			<coordinates>19.821605,47.901714,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name> </name>
+		<description></description>
+		<styleUrl>#sn_Arrow_S</styleUrl>
+		<Point>
+			<coordinates>19.816547,48.004709,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name> </name>
+		<description></description>
+		<styleUrl>#sn_Nezo</styleUrl>
+		<Point>
+			<coordinates>19.830639,47.897063,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>.</name>
+		<description></description>
+		<styleUrl>#sn_Nezo</styleUrl>
+		<Point>
+			<coordinates>19.844784,47.905612,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>01</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.823241,47.897,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>02</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.830683,47.8963,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>03</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.8247,47.900004,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>04</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.821333,47.900967,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>05</name>
+		<description></description>
+		<styleUrl>#sn_RJ</styleUrl>
+		<Point>
+			<coordinates>19.827133,47.89925,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>06</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.831848,47.89863,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>07</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.836435,47.901107,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>08</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.8412,47.901633,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>09</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.84354,47.905369,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Finish</name>
+		<description></description>
+		<styleUrl>#sn_Cel</styleUrl>
+		<Point>
+			<coordinates>19.841517,47.901887,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rajt (M.keresztes)</name>
+		<description></description>
+		<styleUrl>#sn_Rajt</styleUrl>
+		<Point>
+			<coordinates>19.817963,47.898889,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Stop (M.szentimre)</name>
+		<description></description>
+		<styleUrl>#sn_Stop</styleUrl>
+		<Point>
+			<coordinates>19.843101,47.905088,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TC_</name>
+		<description></description>
+		<styleUrl>#sn_IE</styleUrl>
+		<Point>
+			<coordinates>19.913104,47.934327,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TC</name>
+		<description></description>
+		<styleUrl>#sn_IE</styleUrl>
+		<Point>
+			<coordinates>19.816867,47.89975,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name></name>
+		<description></description>
+		<styleUrl>#sn_Arrow_E</styleUrl>
+		<Point>
+			<coordinates>19.869639,47.887511,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name></name>
+		<description></description>
+		<styleUrl>#sn_Arrow_S</styleUrl>
+		<Point>
+			<coordinates>19.783873,48.080548,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name></name>
+		<description></description>
+		<styleUrl>#sn_Arrow_SE</styleUrl>
+		<Point>
+			<coordinates>19.781021,47.912214,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name></name>
+		<description></description>
+		<styleUrl>#sn_Arrow_SW</styleUrl>
+		<Point>
+			<coordinates>19.757271,47.969988,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name></name>
+		<description></description>
+		<styleUrl>#sn_Nezo</styleUrl>
+		<Point>
+			<coordinates>19.82752,47.895818,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>   </name>
+		<description></description>
+		<styleUrl>#sn_Nezo</styleUrl>
+		<Point>
+			<coordinates>19.843233,47.950447,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name> . </name>
+		<description></description>
+		<styleUrl>#sn_Tiltott</styleUrl>
+		<Point>
+			<coordinates>19.86021,47.939162,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name> </name>
+		<description></description>
+		<styleUrl>#sn_Arrow_W</styleUrl>
+		<Point>
+			<coordinates>19.860297,47.932862,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name> </name>
+		<description></description>
+		<styleUrl>#sn_Nezo</styleUrl>
+		<Point>
+			<coordinates>19.8404,47.939955,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>. </name>
+		<description></description>
+		<styleUrl>#sn_Tiltott</styleUrl>
+		<Point>
+			<coordinates>19.879274,47.936791,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>.</name>
+		<description></description>
+		<styleUrl>#sn_Tiltott</styleUrl>
+		<Point>
+			<coordinates>19.89161,47.935286,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>01</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.908342,47.93674,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>02</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.903536,47.93983,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>03</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.899437,47.93627,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>04</name>
+		<description></description>
+		<styleUrl>#sn_RJ</styleUrl>
+		<Point>
+			<coordinates>19.893363,47.933478,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>05</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.886627,47.933865,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>06</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.882841,47.937608,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>07</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.873968,47.93819,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>08</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.869345,47.94043,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>09</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.864965,47.937579,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>10</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.860359,47.935624,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>11</name>
+		<description></description>
+		<styleUrl>#sn_L_R</styleUrl>
+		<Point>
+			<coordinates>19.854698,47.938929,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>12</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.851694,47.940431,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>13</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.848033,47.937302,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>14</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.841833,47.940733,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>15</name>
+		<description></description>
+		<styleUrl>#sn_TB_R</styleUrl>
+		<Point>
+			<coordinates>19.840167,47.946889,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>16</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.841242,47.949872,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>17</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.839592,47.950559,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>18</name>
+		<description></description>
+		<styleUrl>#sn_L_RJ</styleUrl>
+		<Point>
+			<coordinates>19.836866,47.951362,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>19</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.830159,47.951603,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>20</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.827919,47.951975,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>21</name>
+		<description></description>
+		<styleUrl>#sn_L_R</styleUrl>
+		<Point>
+			<coordinates>19.8241,47.951846,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Finish</name>
+		<description></description>
+		<styleUrl>#sn_Cel</styleUrl>
+		<Point>
+			<coordinates>19.818654,47.951309,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>int1 Bec-kút (5.2km)</name>
+		<description></description>
+		<styleUrl>#sn_ssi_gps</styleUrl>
+		<Point>
+			<coordinates>19.866253,47.938437,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>int2 Szorospatak (8.5km)</name>
+		<description></description>
+		<styleUrl>#sn_ssi_gps</styleUrl>
+		<Point>
+			<coordinates>19.83964,47.94519,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nézői megközelítés</name>
+		<description></description>
+		<styleUrl>#sn_Arrow_W</styleUrl>
+		<Point>
+			<coordinates>19.871841,47.946832,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nézői parkoló</name>
+		<description></description>
+		<styleUrl>#sn_Parkolo</styleUrl>
+		<Point>
+			<coordinates>19.84567,47.941204,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nézői út</name>
+		<description></description>
+		<styleUrl>#sn_Arrow_W</styleUrl>
+		<Point>
+			<coordinates>19.905131,47.950366,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rajt (Mátraalmás)</name>
+		<description></description>
+		<styleUrl>#sn_Rajt</styleUrl>
+		<Point>
+			<coordinates>19.912095,47.935381,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Stop (Bátonyterenye)</name>
+		<description></description>
+		<styleUrl>#sn_Stop</styleUrl>
+		<Point>
+			<coordinates>19.815345,47.953005,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name></name>
+		<description></description>
+		<styleUrl>#sn_Arrow_N</styleUrl>
+		<Point>
+			<coordinates>19.82903,48.004919,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name></name>
+		<description></description>
+		<styleUrl>#sn_Arrow_NW</styleUrl>
+		<Point>
+			<coordinates>19.938689,47.928354,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name></name>
+		<description></description>
+		<styleUrl>#sn_Nezo</styleUrl>
+		<Point>
+			<coordinates>19.907065,47.935959,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name></name>
+		<description></description>
+		<styleUrl>#sn_Tiltott</styleUrl>
+		<Point>
+			<coordinates>19.847027,47.935919,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>22</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.873385,48.120494,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>  </name>
+		<description></description>
+		<styleUrl>#sn_Nezo</styleUrl>
+		<Point>
+			<coordinates>19.816356,48.068979,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name> </name>
+		<description></description>
+		<styleUrl>#sn_Nezo</styleUrl>
+		<Point>
+			<coordinates>19.850878,48.050027,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>.</name>
+		<description></description>
+		<styleUrl>#sn_Nezo</styleUrl>
+		<Point>
+			<coordinates>19.839935,48.053567,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>01</name>
+		<description></description>
+		<styleUrl>#sn_RJ</styleUrl>
+		<Point>
+			<coordinates>19.835498,48.046348,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>02</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.845102,48.04832,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>03</name>
+		<description></description>
+		<styleUrl>#sn_L_R</styleUrl>
+		<Point>
+			<coordinates>19.851002,48.048611,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>04</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.851615,48.04931,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>05</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.844964,48.050943,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>06</name>
+		<description></description>
+		<styleUrl>#sn_LT_RJ</styleUrl>
+		<Point>
+			<coordinates>19.841738,48.053813,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>07</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.831478,48.05956,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>08</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.827334,48.063137,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>09</name>
+		<description></description>
+		<styleUrl>#sn_L_R</styleUrl>
+		<Point>
+			<coordinates>19.820538,48.068104,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>10</name>
+		<description></description>
+		<styleUrl>#sn_RJ</styleUrl>
+		<Point>
+			<coordinates>19.817362,48.069992,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>11</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.813063,48.074389,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>12</name>
+		<description></description>
+		<styleUrl>#sn_L_R</styleUrl>
+		<Point>
+			<coordinates>19.810367,48.080615,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>13</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.810848,48.08389,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>14</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.808435,48.082652,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>15</name>
+		<description></description>
+		<styleUrl>#sn_L_R</styleUrl>
+		<Point>
+			<coordinates>19.809821,48.084698,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>16</name>
+		<description></description>
+		<styleUrl>#sn_RJ</styleUrl>
+		<Point>
+			<coordinates>19.810281,48.085184,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>17</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.813132,48.085023,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>18</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.814995,48.084623,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>19</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.816647,48.083285,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>20</name>
+		<description></description>
+		<styleUrl>#sn_R</styleUrl>
+		<Point>
+			<coordinates>19.819631,48.085175,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Finish</name>
+		<description></description>
+		<styleUrl>#sn_Cel</styleUrl>
+		<Point>
+			<coordinates>19.820452,48.085313,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>int. Kazár (3.2km)</name>
+		<description></description>
+		<styleUrl>#sn_ssi_gps</styleUrl>
+		<Point>
+			<coordinates>19.838794,48.055488,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rajt</name>
+		<description></description>
+		<styleUrl>#sn_Rajt</styleUrl>
+		<Point>
+			<coordinates>19.827156,48.048503,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Stop (Somlyóbánya)</name>
+		<description></description>
+		<styleUrl>#sn_Stop</styleUrl>
+		<Point>
+			<coordinates>19.823756,48.086901,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TC</name>
+		<description></description>
+		<styleUrl>#sn_IE</styleUrl>
+		<Point>
+			<coordinates>19.825614,48.048691,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name></name>
+		<description></description>
+		<styleUrl>#sn_Arrow_E</styleUrl>
+		<Point>
+			<coordinates>19.849023,48.0872,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name></name>
+		<description></description>
+		<styleUrl>#sn_Arrow_NE</styleUrl>
+		<Point>
+			<coordinates>19.819064,48.042941,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name></name>
+		<description></description>
+		<styleUrl>#sn_Arrow_NW</styleUrl>
+		<Point>
+			<coordinates>19.837705,48.061585,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name></name>
+		<description></description>
+		<styleUrl>#sn_Arrow_W</styleUrl>
+		<Point>
+			<coordinates>19.833967,48.114667,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name></name>
+		<description></description>
+		<styleUrl>#sn_Nezo</styleUrl>
+		<Point>
+			<coordinates>19.809635,48.085498,0</coordinates>
+		</Point>
+	</Placemark>
+  </Folder>
+  <Folder>
+    <name>Tracks</name>
+    <open>1</open>
+		<Placemark>
+			<name>2023.05.26|M.keresztes - M.szentimre|Etap+</name>
+			<styleUrl>#track_Etap</styleUrl>
+			<MultiGeometry>
+			<LineString>
+				<coordinates>
+					19.841731,47.903394,0 19.841824,47.903523,0 19.842768,47.904081,0 19.842854,47.904339,0 19.842811,47.904596,0 19.842896,47.904854,0 19.843197,47.905197,0 19.843411,47.905326,0 19.843755,47.905326,0 19.844055,47.90524,0 19.844356,47.905025,0 19.844871,47.90451,0 19.845085,47.904382,0 19.845428,47.904296,0 19.846201,47.904167,0 19.846716,47.904167,0 19.847531,47.904253,0 19.847875,47.904253,0 19.848132,47.90421,0 19.849334,47.903781,0 19.850106,47.903566,0 19.850407,47.903438,0 19.850492,47.903223,0 19.850407,47.902622,0 19.850149,47.902021,0 19.850149,47.901893,0 19.850336,47.901465,0 19.85045,47.901206,0 19.850664,47.900906,0 19.851093,47.900691,0 19.851265,47.900648,0 19.85178,47.900605,0 19.852252,47.900691,0 19.85281,47.900949,0 19.853196,47.901077,0 19.854012,47.901163,0 19.854269,47.901163,0 19.854999,47.900991,0 19.85517,47.900949,0 19.855342,47.900734,0 19.855428,47.900434,0 19.855599,47.90009,0 19.855728,47.899961,0 19.856501,47.899532,0 19.856758,47.899275,0 19.857016,47.898717,0 19.857273,47.89803,0 19.858088,47.8967,0 19.858561,47.895627,0 19.859419,47.894468,0 19.859676,47.894297,0 19.86002,47.894254,0 19.860277,47.89434,0 19.861693,47.895026,0 19.862037,47.895069,0 19.862466,47.895069,0 19.864225,47.894983,0 19.8665,47.894511,0 19.867444,47.894382,0 19.868646,47.894297,0 19.869332,47.894082,0 19.870405,47.893353,0 19.871092,47.893095,0 19.87165,47.892966,0 19.872379,47.89288,0 19.873066,47.892966,0 19.873409,47.893095,0 19.874568,47.893782,0 19.876456,47.895284,0 19.876628,47.895498,0 19.877014,47.896571,0 19.877186,47.896786,0 19.877486,47.897,0 19.878216,47.897258,0 19.881177,47.897902,0 19.882035,47.898116,0 19.882379,47.898288,0 19.882636,47.898502,0 19.883364,47.899352,0 19.883666,47.899704,0 19.883752,47.900476,0 19.883924,47.900691,0 19.884172,47.900869,0 19.884353,47.90112,0 19.884267,47.901807,0 19.884138,47.902107,0 19.88358,47.902493,0 19.882679,47.902923,0 19.882379,47.903137,0 19.881744,47.904489,0 19.881649,47.90494,0 19.881849,47.905352,0 19.882121,47.905626,0 19.882395,47.905811,0 19.882899,47.906014,0 19.883537,47.90627,0 19.88406,47.906413,0 19.884739,47.906613,0 19.885125,47.906785,0 19.885211,47.906871,0 19.885211,47.907085,0 19.885125,47.907729,0 19.885855,47.908802,0 19.885898,47.908931,0 19.885855,47.909446,0 19.885941,47.909918,0 19.886327,47.910304,0 19.886842,47.910519,0 19.886971,47.910604,0 19.887099,47.910819,0 19.886627,47.912664,0 19.88667,47.913265,0 19.886713,47.913394,0 19.887099,47.913694,0 19.8877,47.913866,0 19.888215,47.913866,0 19.889846,47.913265,0 19.89079,47.913136,0 19.891777,47.912793,0 19.892635,47.912321,0 19.892979,47.912192,0 19.894052,47.911978,0 19.895253,47.911592,0 19.895811,47.911549,0 19.896154,47.911634,0 19.896584,47.912021,0 19.89697,47.912707,0 19.897056,47.913394,0 19.897571,47.914467,0 19.897957,47.914896,0 19.898815,47.915025,0 19.899158,47.915239,0 19.899545,47.91584,0 19.899974,47.916098,0 19.90036,47.916183,0 19.901819,47.916226,0 19.902163,47.916269,0 19.903922,47.916055,0 19.904566,47.916183,0 19.90521,47.916827,0 19.905424,47.917042,0 19.906154,47.917471,0 19.906926,47.9176,0 19.908171,47.9176,0 19.908943,47.917686,0 19.90963,47.917643,0 19.911003,47.917042,0 19.912205,47.915883,0 19.913878,47.914767,0 19.914436,47.914553,0 19.91684,47.914252,0 19.918685,47.913523,0 19.920917,47.912707,0 19.92126,47.912621,0 19.922419,47.913008,0 19.924049,47.913651,0 19.925637,47.91451,0 19.926066,47.914424,0 19.926195,47.914081,0 19.924951,47.913222,0 19.924693,47.913008,0 19.924607,47.912879,0 19.923964,47.910604,0 19.923663,47.910433,0 19.923277,47.910476,0 19.921989,47.910948,0 19.921646,47.910862,0 19.921474,47.910733,0 19.921474,47.910562,0 19.921775,47.910347,0 19.923191,47.910089,0 19.923363,47.910004,0 19.923749,47.909617,0 19.924006,47.90906,0 19.924221,47.908931,0 19.92465,47.908931,0 19.924951,47.909145,0 19.925122,47.909403,0 19.925337,47.909575,0 19.927225,47.910175,0 19.927955,47.910476,0 19.929714,47.911377,0 19.933019,47.912192,0 19.933405,47.912278,0 19.933534,47.912364,0 19.93392,47.912922,0 19.935079,47.913566,0 19.935465,47.913651,0 19.93598,47.913566,0 19.937224,47.913136,0 19.937868,47.913094,0 19.939628,47.913222,0 19.942031,47.913523,0 19.942374,47.91348,0 19.942503,47.913351,0
+				</coordinates>
+			</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>2023.05.26|M.keresztes - M.szentimre|Etap-</name>
+			<styleUrl>#track_Etap</styleUrl>
+			<MultiGeometry>
+			<LineString>
+				<coordinates>
+					19.811655,48.10932,0 19.811336,48.109239,0 19.811113,48.109019,0 19.810775,48.108611,0 19.810756,48.108606,0 19.810558,48.1084,0 19.810207,48.108256,0 19.810201,48.10826,0 19.809371,48.107982,0 19.808344,48.107039,0 19.807725,48.106441,0 19.807317,48.106167,0 19.806676,48.105547,0 19.806397,48.105333,0 19.803994,48.104217,0 19.803329,48.103595,0 19.803221,48.103445,0 19.801397,48.101037,0 19.79962,48.098881,0 19.798834,48.098113,0 19.796226,48.095736,0 19.793859,48.093429,0 19.791376,48.091121,0 19.790322,48.089888,0 19.789232,48.088373,0 19.787839,48.08636,0 19.786955,48.085059,0 19.786615,48.084361,0 19.786472,48.083707,0 19.786481,48.08304,0 19.786678,48.082254,0 19.787044,48.081122,0 19.787142,48.080418,0 19.787097,48.079663,0 19.786785,48.078022,0 19.786481,48.076626,0 19.786205,48.076043,0 19.786162,48.076,0 19.785433,48.075442,0 19.785132,48.075228,0 19.784832,48.074756,0 19.784746,48.074584,0 19.784617,48.074327,0 19.78436,48.073511,0 19.783974,48.071795,0 19.783673,48.070464,0 19.783502,48.069692,0 19.783373,48.069091,0 19.783072,48.067288,0 19.783072,48.066859,0 19.782987,48.066559,0 19.782858,48.06643,0 19.782987,48.066301,0 19.78303,48.066216,0 19.783201,48.0651,0 19.783115,48.064971,0 19.783201,48.064842,0 19.783287,48.064713,0 19.783416,48.063769,0 19.783416,48.06304,0 19.783373,48.062611,0 19.783201,48.061881,0 19.782944,48.061194,0 19.782643,48.060508,0 19.78157,48.05892,0 19.780111,48.056731,0 19.779811,48.056045,0 19.779725,48.055401,0 19.779725,48.054929,0 19.779897,48.054199,0 19.78054,48.052611,0 19.781528,48.050809,0 19.782214,48.049865,0 19.784017,48.048148,0 19.785347,48.046989,0 19.785991,48.04656,0 19.787364,48.045659,0 19.788222,48.045187,0 19.789038,48.044758,0 19.790154,48.044286,0 19.794273,48.04287,0 19.794788,48.042612,0 19.795218,48.042397,0 19.795647,48.04214,0 19.796033,48.04184,0 19.796505,48.04141,0 19.797921,48.039737,0 19.798994,48.038449,0 19.802296,48.035909,0 19.805593,48.033441,0 19.813846,48.027341,0 19.817106,48.024952,0 19.817669,48.024235,0 19.819759,48.020864,0 19.819643,48.020519,0 19.820081,48.020368,0 19.821036,48.018764,0 19.821304,48.018085,0 19.822197,48.014702,0 19.822046,48.014438,0 19.822314,48.014255,0 19.822483,48.013853,0 19.823698,48.009011,0 19.824278,48.006483,0 19.823975,48.006275,0 19.824287,48.006043,0 19.8241,48.004332,0 19.823859,48.00354,0 19.82335,48.002396,0 19.822805,48.00154,0 19.821769,48.000107,0 19.819616,47.997327,0 19.817973,47.995183,0 19.816526,47.993057,0 19.81624,47.992944,0 19.816302,47.992674,0 19.815061,47.989266,0 19.813239,47.983744,0 19.81239,47.981216,0 19.812149,47.980581,0 19.811613,47.97982,0 19.810747,47.979192,0 19.809845,47.978745,0 19.808844,47.97845,0 19.805431,47.977939,0 19.797179,47.976829,0 19.789038,47.975664,0 19.787793,47.975492,0 19.785519,47.975063,0 19.778008,47.974076,0 19.774919,47.973561,0 19.774103,47.97339,0 19.772387,47.972918,0 19.770412,47.972188,0 19.76891,47.971544,0 19.767323,47.970643,0 19.765735,47.96957,0 19.760704,47.965825,0 19.755298,47.961811,0 19.754538,47.961396,0 19.753529,47.960912,0 19.752197,47.960517,0 19.750644,47.960358,0 19.749563,47.96037,0 19.747714,47.960622,0 19.746241,47.961112,0 19.743917,47.961764,0 19.742756,47.962051,0 19.740702,47.962159,0 19.739222,47.962024,0 19.738112,47.96188,0 19.737321,47.961647,0 19.735955,47.961153,0 19.734807,47.960578,0 19.731885,47.958377,0 19.728657,47.955952,0 19.727113,47.954892,0 19.725479,47.954011,0 19.723693,47.953095,0 19.721613,47.952251,0 19.718755,47.95137,0 19.715118,47.950391,0 19.712477,47.949726,0 19.709951,47.948954,0 19.708126,47.948253,0 19.706506,47.947517,0 19.704974,47.946645,0 19.70329,47.945567,0 19.702257,47.944813,0 19.701976,47.944795,0 19.70181,47.944624,0 19.701874,47.944426,0 19.702537,47.944157,0 19.70486,47.941893,0 19.706263,47.940618,0 19.706518,47.940142,0 19.706608,47.939589,0 19.706352,47.939014,0 19.705102,47.937846,0 19.705102,47.937325,0 19.705127,47.937325,0 19.705134,47.936755,0 19.707947,47.936593,0 19.707986,47.93658,0 19.710014,47.936216,0 19.710053,47.936189,0 19.711105,47.935515,0 19.711833,47.935044,0 19.713134,47.933561,0 19.714168,47.932685,0 19.714751,47.932234,0 19.715481,47.931762,0 19.716597,47.930431,0 19.716811,47.930303,0 19.717112,47.930217,0 19.719987,47.930517,0 19.721403,47.930517,0 19.726553,47.931204,0 19.727755,47.931547,0 19.72827,47.93159,0 19.729214,47.931504,0 19.730115,47.931461,0 19.732261,47.931547,0 19.736037,47.931848,0 19.738483,47.93232,0 19.739857,47.932234,0 19.741917,47.931933,0 19.742947,47.931504,0 19.743762,47.931247,0 19.74668,47.930775,0 19.747367,47.930603,0 19.749556,47.929444,0 19.753246,47.927127,0 19.75389,47.926526,0 19.754448,47.92614,0 19.755135,47.925925,0 19.757967,47.924852,0 19.759941,47.924595,0 19.760885,47.924638,0 19.762774,47.924895,0 19.763031,47.924895,0 19.763546,47.924809,0 19.764147,47.924595,0 19.766078,47.923608,0 19.766893,47.923479,0 19.769983,47.923994,0 19.771099,47.923951,0 19.773202,47.923651,0 19.773803,47.923608,0 19.775004,47.923737,0 19.777021,47.92408,0 19.777536,47.924166,0 19.77818,47.924123,0 19.779596,47.923822,0 19.780369,47.923608,0 19.782171,47.922964,0 19.785047,47.921505,0 19.786506,47.920475,0 19.786806,47.920175,0 19.786935,47.919745,0 19.787321,47.919273,0 19.789081,47.9182,0 19.789724,47.917428,0 19.790154,47.916827,0 19.792128,47.91481,0 19.79466,47.912235,0 19.795089,47.911763,0 19.795175,47.911377,0 19.79526,47.910304,0 19.795346,47.909832,0 19.795604,47.909617,0 19.79672,47.909317,0 19.797964,47.908974,0 19.799638,47.908287,0 19.799981,47.908201,0 19.800839,47.908115,0 19.802685,47.907472,0 19.803286,47.907043,0 19.803586,47.906914,0 19.804444,47.906742,0 19.805689,47.906184,0 19.807277,47.904854,0 19.807663,47.904639,0 19.808178,47.904468,0 19.80835,47.904339,0 19.80865,47.904167,0 19.809723,47.903438,0 19.810066,47.903051,0 19.810452,47.902751,0 19.81144,47.90215,0 19.813585,47.901206,0 19.81616,47.900176,0 19.816504,47.90009,0 19.816933,47.899704,0 19.817933,47.898867,0
+				</coordinates>
+			</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>2023.05.26|M.keresztes - M.szentimre|SS</name>
+			<styleUrl>#track_SS</styleUrl>
+			<MultiGeometry>
+			<LineString>
+				<coordinates>
+					19.817933,47.898867,0 19.817963,47.898889,0 19.818435,47.898502,0 19.818821,47.898331,0 19.819851,47.897987,0 19.820409,47.89773,0 19.821353,47.897687,0 19.821696,47.897515,0 19.822254,47.897043,0 19.822383,47.897,0 19.823241,47.897,0 19.82543,47.896872,0 19.827576,47.896786,0 19.829679,47.896485,0 19.830108,47.896271,0 19.830365,47.896185,0 19.83058,47.896228,0 19.830666,47.896314,0 19.830494,47.896485,0 19.829035,47.896829,0 19.828176,47.897215,0 19.82779,47.897344,0 19.826674,47.897472,0 19.825988,47.897644,0 19.825001,47.897816,0 19.824615,47.898073,0 19.8244,47.898459,0 19.824314,47.898846,0 19.824271,47.899275,0 19.824357,47.899575,0 19.824657,47.899876,0 19.8247,47.900004,0 19.824657,47.90009,0 19.824443,47.900176,0 19.8241,47.900176,0 19.823327,47.899876,0 19.822683,47.899618,0 19.822469,47.899575,0 19.822083,47.899661,0 19.821954,47.899747,0 19.821353,47.900648,0 19.82131,47.900734,0 19.821439,47.900863,0 19.821653,47.90082,0 19.821782,47.900691,0 19.821782,47.900476,0 19.821825,47.900305,0 19.822083,47.899961,0 19.822254,47.899876,0 19.822469,47.899876,0 19.822683,47.899919,0 19.822855,47.900004,0 19.823585,47.900605,0 19.8241,47.900906,0 19.824529,47.900991,0 19.82513,47.900906,0 19.825559,47.900906,0 19.826546,47.900991,0 19.827619,47.900991,0 19.827833,47.900949,0 19.828005,47.900863,0 19.828048,47.900648,0 19.827919,47.900348,0 19.827747,47.900133,0 19.827018,47.899532,0 19.827018,47.899404,0 19.827189,47.899189,0 19.827404,47.899146,0 19.82852,47.899017,0 19.829249,47.898932,0 19.830194,47.898717,0 19.831395,47.898545,0 19.831867,47.898631,0 19.831996,47.898717,0 19.832382,47.899146,0 19.832683,47.899318,0 19.833412,47.899661,0 19.833713,47.899919,0 19.833927,47.900391,0 19.834228,47.900648,0 19.834442,47.900734,0 19.835258,47.900777,0 19.835815,47.900906,0 19.836287,47.901077,0 19.836502,47.90112,0 19.83676,47.901077,0 19.837189,47.900949,0 19.837918,47.900777,0 19.838133,47.90082,0 19.838648,47.901034,0 19.839249,47.901421,0 19.839377,47.901464,0 19.839721,47.901464,0 19.84015,47.901421,0 19.840665,47.901464,0 19.84118,47.901635,0 19.841437,47.901807,0 19.841652,47.902021,0 19.841738,47.902236,0 19.841695,47.903223,0 19.841738,47.903395,0
+				</coordinates>
+			</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>2023.05.26|Mátraalmás - Bátonyterenye|Etap+</name>
+			<styleUrl>#track_Etap</styleUrl>
+			<MultiGeometry>
+			<LineString>
+				<coordinates>
+					19.81698,47.952205,0 19.816444,47.952696,0 19.816034,47.952891,0 19.815346,47.953023,0 19.81498,47.953092,0 19.814572,47.953219,0 19.814272,47.953391,0 19.814057,47.953734,0 19.814229,47.955966,0 19.814572,47.957168,0 19.81513,47.95897,0 19.815559,47.9603,0 19.81689,47.963347,0 19.817147,47.96382,0 19.817662,47.964463,0 19.820237,47.967424,0 19.820709,47.967982,0 19.82101,47.968755,0 19.821782,47.968626,0 19.822297,47.968369,0 19.823713,47.968154,0 19.824014,47.968068,0 19.824615,47.967682,0 19.826245,47.968583,0 19.826632,47.968755,0 19.827061,47.968841,0 19.827704,47.969012,0 19.828005,47.969184,0 19.828176,47.969356,0 19.828262,47.969527,0 19.827662,47.969742,0 19.826374,47.9703,0 19.826202,47.970471,0 19.825859,47.970986,0 19.825902,47.97163,0 19.825902,47.971716,0 19.825902,47.972488,0 19.825687,47.972918,0 19.824872,47.973561,0 19.823542,47.974763,0 19.822984,47.975621,0 19.822512,47.975922,0 19.821868,47.976694,0 19.82161,47.976823,0 19.820452,47.977338,0 19.81822,47.978454,0 19.817705,47.978625,0 19.816332,47.978969,0 19.814487,47.979226,0 19.812512,47.979527,0 19.811783,47.979784,0
+				</coordinates>
+			</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>2023.05.26|Mátraalmás - Bátonyterenye|Etap-</name>
+			<styleUrl>#track_Etap</styleUrl>
+			<MultiGeometry>
+			<LineString>
+				<coordinates>
+					19.942619,47.913351,0 19.94319,47.913351,0 19.943275,47.913394,0 19.943361,47.913523,0 19.943404,47.913995,0 19.943275,47.914252,0 19.942932,47.914639,0 19.942846,47.91481,0 19.942803,47.915111,0 19.942846,47.915368,0 19.943275,47.917686,0 19.943619,47.918158,0 19.943705,47.918329,0 19.943662,47.918501,0 19.943361,47.918844,0 19.942846,47.919016,0 19.942203,47.919102,0 19.941988,47.919188,0 19.941645,47.919445,0 19.941344,47.91966,0 19.941087,47.919745,0 19.939628,47.920046,0 19.938855,47.920432,0 19.93834,47.920647,0 19.937568,47.920818,0 19.936752,47.920947,0 19.936366,47.92099,0 19.936194,47.92099,0 19.936109,47.921076,0 19.935336,47.921591,0 19.934735,47.92202,0 19.934564,47.922235,0 19.934564,47.92232,0 19.934607,47.922363,0 19.934821,47.922406,0 19.935293,47.922535,0 19.935465,47.922664,0 19.936194,47.923436,0 19.936752,47.923865,0 19.936838,47.923994,0 19.936881,47.924209,0 19.936838,47.925024,0 19.936795,47.925239,0 19.936666,47.925367,0 19.935637,47.926483,0 19.934263,47.927899,0 19.934006,47.928329,0 19.933877,47.928457,0 19.933705,47.928543,0 19.933491,47.928586,0 19.933062,47.928629,0 19.932375,47.928672,0 19.931517,47.928629,0 19.931002,47.928586,0 19.929328,47.928243,0 19.92877,47.9282,0 19.92847,47.928114,0 19.927568,47.927728,0 19.927311,47.927685,0 19.926152,47.927899,0 19.925723,47.928028,0 19.925466,47.928243,0 19.925165,47.928629,0 19.924994,47.928801,0 19.924779,47.928886,0 19.924307,47.929015,0 19.923964,47.929058,0 19.923577,47.929058,0 19.922848,47.928972,0 19.922333,47.928843,0 19.921989,47.928715,0 19.920711,47.927996,0 19.920616,47.927942,0 19.920487,47.927942,0 19.920359,47.928028,0 19.920359,47.928114,0 19.920444,47.928157,0 19.921045,47.928371,0 19.921775,47.929015,0 19.921947,47.929358,0 19.922075,47.929831,0 19.922161,47.930002,0 19.922333,47.930217,0 19.922547,47.930346,0 19.924521,47.931161,0 19.924908,47.93129,0 19.925981,47.931418,0 19.926496,47.931504,0 19.926624,47.931547,0 19.92671,47.931676,0 19.92671,47.931762,0 19.926624,47.931805,0 19.926496,47.931848,0 19.925981,47.931805,0 19.925766,47.931848,0 19.92362,47.932663,0 19.922934,47.932878,0 19.922633,47.93292,0 19.921646,47.932963,0 19.921346,47.932963,0 19.921002,47.933135,0 19.920402,47.93365,0 19.919801,47.933993,0 19.919563,47.934112,0 19.919114,47.934337,0 19.918213,47.934809,0 19.918041,47.934852,0 19.917827,47.934852,0 19.917698,47.934766,0 19.917655,47.934594,0 19.917955,47.933908,0 19.917955,47.933736,0 19.917784,47.933564,0 19.917054,47.933435,0 19.916625,47.933221,0 19.915895,47.93262,0 19.915681,47.93262,0 19.915595,47.932663,0 19.915338,47.932878,0 19.914908,47.933092,0 19.914393,47.933221,0 19.914007,47.933393,0 19.912763,47.93468,0 19.912038,47.935381,0
+				</coordinates>
+			</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>2023.05.26|Mátraalmás - Bátonyterenye|SS</name>
+			<styleUrl>#track_SS</styleUrl>
+			<MultiGeometry>
+			<LineString>
+				<coordinates>
+					19.912041,47.935364,0 19.911518,47.935882,0 19.911046,47.936225,0 19.910359,47.936654,0 19.910145,47.936783,0 19.909759,47.936869,0 19.909501,47.936869,0 19.909115,47.936783,0 19.908686,47.936654,0 19.908557,47.936611,0 19.908342,47.93674,0 19.908085,47.936783,0 19.908026,47.936842,0 19.907956,47.936912,0 19.907956,47.936997,0 19.908042,47.937641,0 19.907956,47.938027,0 19.90787,47.938199,0 19.907613,47.938414,0 19.907098,47.938628,0 19.90684,47.938843,0 19.90624,47.939401,0 19.906025,47.939572,0 19.906038,47.939567,0 19.905599,47.939784,0 19.904999,47.939962,0 19.90445,47.940003,0 19.903815,47.939919,0 19.903536,47.93983,0 19.902935,47.939529,0 19.902592,47.939315,0 19.902334,47.9391,0 19.900661,47.936997,0 19.900489,47.936826,0 19.900146,47.936568,0 19.899588,47.936311,0 19.899116,47.936182,0 19.898729,47.936225,0 19.898171,47.936311,0 19.897699,47.936311,0 19.897571,47.936311,0 19.897313,47.936139,0 19.897184,47.936053,0 19.897056,47.935753,0 19.897013,47.935581,0 19.897313,47.934422,0 19.897313,47.934079,0 19.897313,47.933822,0 19.897227,47.933478,0 19.897013,47.932878,0 19.896541,47.93232,0 19.896283,47.932105,0 19.896069,47.932019,0 19.895897,47.932062,0 19.895725,47.932191,0 19.895511,47.932491,0 19.895296,47.932706,0 19.893794,47.933393,0 19.893494,47.933478,0 19.893322,47.933478,0 19.893193,47.933393,0 19.892936,47.93335,0 19.892678,47.933178,0 19.89152,47.932148,0 19.891005,47.931848,0 19.890318,47.931633,0 19.889631,47.931504,0 19.889202,47.93159,0 19.888773,47.931719,0 19.888,47.932062,0 19.887314,47.932577,0 19.886971,47.933049,0 19.886756,47.93365,0 19.886498,47.93395,0 19.886284,47.934079,0 19.885426,47.934337,0 19.885211,47.934422,0 19.883966,47.935495,0 19.883752,47.935667,0 19.883666,47.935925,0 19.883494,47.936397,0 19.883366,47.937126,0 19.883151,47.937384,0 19.882379,47.937942,0 19.881907,47.938199,0 19.881563,47.938328,0 19.879889,47.938542,0 19.878387,47.938671,0 19.877872,47.938714,0 19.877272,47.938585,0 19.876671,47.938414,0 19.875984,47.938242,0 19.874525,47.938113,0 19.874053,47.938156,0 19.873838,47.938242,0 19.873581,47.938371,0 19.872422,47.939229,0 19.870663,47.940345,0 19.870319,47.940516,0 19.870105,47.940559,0 19.869804,47.940559,0 19.869461,47.940516,0 19.869289,47.940388,0 19.868903,47.940087,0 19.868191,47.939482,0 19.867307,47.93891,0 19.866285,47.938499,0 19.866114,47.938371,0 19.865427,47.937727,0 19.865255,47.937641,0 19.864655,47.937512,0 19.864397,47.937384,0 19.863925,47.936954,0 19.863753,47.936912,0 19.863195,47.936912,0 19.862852,47.936826,0 19.862294,47.936354,0 19.86208,47.936225,0 19.861908,47.936182,0 19.86135,47.936096,0 19.861093,47.93601,0 19.860492,47.935667,0 19.860363,47.935624,0 19.860148,47.935624,0 19.859977,47.935667,0 19.859419,47.936053,0 19.85929,47.936096,0 19.859118,47.936139,0 19.858518,47.936182,0 19.858131,47.936268,0 19.856114,47.937427,0 19.855599,47.937942,0 19.855299,47.938285,0 19.854741,47.938886,0 19.853454,47.940044,0 19.853368,47.940173,0 19.853282,47.940474,0 19.853196,47.940602,0 19.853067,47.940688,0 19.852767,47.940774,0 19.852595,47.940774,0 19.852166,47.940688,0 19.851866,47.940559,0 19.851522,47.940302,0 19.850793,47.939358,0 19.850578,47.938972,0 19.850578,47.938714,0 19.85075,47.938414,0 19.850707,47.938328,0 19.850578,47.938156,0 19.850407,47.938113,0 19.850278,47.938113,0 19.849892,47.938156,0 19.84942,47.938156,0 19.848948,47.93807,0 19.84869,47.937984,0 19.84839,47.937598,0 19.848132,47.937384,0 19.847918,47.937298,0 19.84766,47.937298,0 19.847445,47.937341,0 19.847317,47.937384,0 19.847188,47.937512,0 19.847059,47.937641,0 19.847016,47.937942,0 19.846716,47.938499,0 19.846029,47.939143,0 19.844864,47.939801,0 19.844356,47.940087,0 19.843926,47.940302,0 19.842982,47.940602,0 19.84251,47.940731,0 19.841609,47.940817,0 19.840837,47.94116,0 19.840407,47.941289,0 19.839249,47.941332,0 19.838734,47.941589,0 19.838562,47.941847,0 19.838519,47.942061,0 19.838562,47.942405,0 19.839206,47.94395,0 19.839635,47.945151,0 19.839721,47.945838,0 19.839978,47.946782,0 19.840314,47.946785,0 19.840225,47.947056,0 19.840064,47.947168,0 19.840279,47.948027,0 19.841008,47.949014,0 19.841437,47.949615,0 19.841309,47.949786,0 19.841311,47.949923,0 19.841051,47.949872,0 19.840665,47.950087,0 19.839592,47.950559,0 19.838777,47.950816,0 19.836073,47.951589,0 19.835386,47.951717,0 19.834614,47.95176,0 19.833455,47.95176,0 19.833026,47.95176,0 19.832726,47.951632,0 19.832125,47.951245,0 19.83191,47.951202,0 19.831524,47.951159,0 19.831309,47.951159,0 19.831052,47.951245,0 19.830537,47.951503,0 19.830065,47.951589,0 19.829807,47.951632,0 19.829679,47.951674,0 19.829335,47.951932,0 19.829121,47.952018,0 19.827919,47.951975,0 19.827361,47.951932,0 19.826717,47.951932,0 19.826331,47.952061,0 19.825859,47.952147,0 19.825473,47.952147,0 19.824529,47.951932,0 19.8241,47.951846,0 19.823842,47.95176,0 19.823585,47.951589,0 19.823155,47.951245,0 19.822812,47.951031,0 19.822383,47.950902,0 19.821868,47.950816,0 19.821353,47.950816,0 19.820881,47.950902,0 19.819851,47.951202,0 19.818638,47.951292,0 19.81792,47.951374,0 19.817748,47.951417,0 19.817405,47.951632,0 19.816976,47.952189,0
+				</coordinates>
+			</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>2023.05.26|Parc Fermé|Szerviz</name>
+			<styleUrl>#track_Szerviz</styleUrl>
+			<MultiGeometry>
+			<LineString>
+				<coordinates>
+					19.823113,48.132695,0 19.821658,48.132808,0 19.821656,48.132768,0 19.821641,48.132636,0 19.821627,48.132504,0 19.821612,48.132371,0 19.821598,48.132239,0 19.821583,48.132107,0 19.822863,48.132099,0 19.822914,48.132216,0 19.822966,48.132333,0 19.823017,48.132451,0 19.823069,48.132568,0 19.82312,48.132685,0 19.823097,48.13265,0 19.821667,48.132761,0 19.82166,48.132714,0 19.823079,48.132602,0 19.823066,48.132546,0 19.821653,48.132659,0 19.821648,48.132613,0 19.823055,48.132504,0 19.823025,48.132456,0 19.821638,48.132564,0 19.821636,48.132519,0 19.823005,48.132413,0 19.822986,48.132378,0 19.821633,48.132471,0 19.821631,48.132425,0 19.822964,48.132336,0 19.822947,48.132287,0 19.821623,48.132376,0 19.821622,48.132338,0 19.822924,48.132246,0 19.821612,48.132294,0 19.821604,48.132249,0 19.822902,48.132174,0 19.822889,48.132143,0 19.821605,48.132207,0 19.821595,48.132169,0 19.822505,48.132122,0 19.8216,48.132128,0
+				</coordinates>
+			</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>2023.05.26|PF-szervíz</name>
+			<styleUrl>#track_</styleUrl>
+			<MultiGeometry>
+			<LineString>
+				<coordinates>
+					19.822876,48.132069,0 19.821782,48.131962,0 19.817426,48.132112,0 19.813521,48.131232,0 19.813263,48.131275,0 19.811268,48.129086,0 19.809648,48.126897,0 19.808393,48.126276,0 19.808199,48.126211,0 19.808006,48.125739,0 19.804981,48.123872,0 19.804595,48.123336,0 19.804466,48.122628,0 19.804723,48.121941,0 19.809422,48.116598,0 19.811182,48.114581,0 19.811139,48.112049,0 19.811654,48.110762,0 19.811783,48.10941,0 19.811718,48.109088,0 19.811354,48.108788,0 19.811094,48.108592,0 19.810724,48.108184,0 19.809818,48.107043,0 19.809161,48.107345,0 19.809069,48.107411,0 19.809064,48.107544,0 19.809533,48.10799,0
+				</coordinates>
+			</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>2023.05.26|Szerviz 21-es út|Szerviz</name>
+			<styleUrl>#track_Szerviz</styleUrl>
+			<MultiGeometry>
+			<LineString>
+				<coordinates>
+					19.809518,48.107979,0 19.809836,48.10831,0 19.810015,48.108446,0 19.81073,48.10914,0 19.811011,48.109711,0 19.811062,48.110295,0 19.810889,48.110785,0 19.810449,48.111553,0 19.810474,48.111556,0 19.810152,48.112092,0 19.808176,48.115199,0 19.805861,48.118851,0 19.80511,48.119602,0 19.803479,48.120682,0 19.803207,48.120932,0 19.802795,48.121372,0 19.802556,48.121984,0 19.80247,48.122478,0 19.802509,48.122841,0 19.802814,48.123615,0 19.80328,48.124458,0 19.803693,48.124881,0 19.80409,48.12519,0 19.804616,48.125439,0 19.805904,48.125904,0 19.806269,48.126018,0 19.807102,48.126477,0 19.807459,48.126477,0 19.80795,48.126313,0
+				</coordinates>
+			</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>2023.05.26|Vizslás - Somlyóbánya|Etap+</name>
+			<styleUrl>#track_Etap</styleUrl>
+			<MultiGeometry>
+			<LineString>
+				<coordinates>
+					19.821782,48.086257,0 19.822297,48.086514,0 19.823756,48.086901,0 19.824185,48.087115,0 19.824572,48.087287,0 19.825215,48.087416,0 19.825301,48.087416,0 19.825387,48.087373,0 19.825387,48.08733,0 19.82513,48.086987,0 19.825172,48.086901,0 19.82513,48.086171,0 19.82513,48.086042,0 19.825001,48.085957,0 19.825001,48.085914,0 19.825044,48.085785,0 19.826159,48.085485,0 19.826546,48.085527,0 19.82779,48.085785,0 19.827747,48.086214,0 19.82779,48.086686,0 19.828005,48.087244,0 19.82852,48.087673,0 19.828949,48.087931,0 19.82955,48.088145,0 19.829807,48.088231,0 19.830666,48.088145,0 19.831009,48.088188,0 19.831138,48.08836,0 19.831052,48.088832,0 19.831009,48.089819,0 19.831095,48.090162,0 19.83161,48.090763,0 19.832425,48.091235,0 19.83264,48.09145,0 19.83294,48.091965,0 19.833198,48.092651,0 19.834056,48.093638,0 19.834228,48.093939,0 19.83427,48.094068,0 19.834743,48.094454,0 19.835429,48.09484,0 19.835944,48.095055,0 19.836459,48.09514,0 19.837017,48.094926,0 19.838991,48.093896,0 19.841223,48.092608,0 19.841952,48.092265,0 19.842167,48.092265,0 19.842253,48.092308,0 19.842424,48.092651,0 19.842596,48.092866,0 19.843111,48.093038,0 19.844785,48.092909,0 19.845471,48.092694,0 19.845686,48.092437,0 19.845772,48.091922,0 19.845643,48.091578,0 19.8456,48.091407,0 19.845986,48.090634,0 19.846373,48.09042,0 19.847274,48.090377,0 19.848561,48.09042,0 19.850707,48.089905,0 19.851437,48.089561,0 19.85208,48.08939,0 19.853368,48.089218,0 19.855213,48.089218,0 19.856243,48.089347,0 19.856672,48.089476,0 19.85796,48.089561,0 19.858131,48.089604,0 19.858217,48.089647,0 19.85826,48.089733,0 19.858217,48.089862,0 19.858088,48.089905,0 19.856243,48.089862,0 19.855599,48.089905,0 19.855256,48.089991,0 19.854355,48.090334,0 19.853797,48.090463,0 19.853668,48.090549,0 19.853625,48.090634,0 19.853754,48.091235,0 19.853368,48.09175,0 19.852767,48.092351,0 19.852638,48.09248,0 19.852767,48.092823,0 19.853411,48.09351,0 19.853582,48.093896,0 19.854054,48.095012,0 19.854312,48.095956,0 19.854956,48.09557,0 19.855556,48.095484,0 19.856029,48.09557,0 19.859591,48.0966,0 19.860191,48.0966,0 19.860706,48.096557,0 19.861178,48.096299,0 19.861565,48.09617,0 19.861822,48.096128,0 19.865298,48.09587,0 19.865685,48.095784,0 19.866586,48.095355,0 19.867015,48.095269,0 19.86783,48.095183,0 19.870448,48.094497,0 19.870749,48.094497,0 19.871006,48.094583,0 19.871564,48.094797,0 19.872079,48.09484,0 19.872551,48.09484,0 19.873452,48.094883,0 19.87431,48.09514,0 19.873624,48.095741,0 19.872208,48.098273,0 19.871993,48.099132,0 19.871821,48.10102,0 19.871693,48.101277,0 19.871392,48.101535,0 19.868946,48.102307,0 19.868689,48.102479,0 19.866843,48.103809,0 19.866457,48.104324,0 19.866371,48.104582,0 19.866371,48.105569,0 19.866285,48.106084,0 19.865942,48.107071,0 19.865856,48.107715,0 19.865985,48.107929,0 19.866371,48.108358,0 19.866457,48.108573,0 19.866457,48.108873,0 19.866285,48.109217,0 19.865985,48.109474,0 19.864655,48.110075,0 19.864354,48.110161,0 19.86371,48.110204,0 19.863453,48.110247,0 19.863351,48.110277,0 19.863024,48.110375,0 19.862723,48.110547,0 19.861822,48.111062,0 19.860878,48.111448,0 19.859977,48.111963,0 19.859848,48.112006,0 19.858947,48.112049,0 19.858475,48.112135,0 19.85693,48.112693,0 19.854999,48.113465,0 19.854484,48.113637,0 19.853883,48.113723,0 19.850836,48.114109,0 19.850321,48.114238,0 19.849849,48.114538,0 19.849291,48.115096,0 19.84899,48.115397,0 19.848733,48.115525,0 19.844055,48.116813,0 19.843068,48.116941,0 19.841909,48.116899,0 19.840493,48.117199,0 19.839463,48.117328,0 19.837575,48.117929,0 19.836974,48.118143,0 19.836373,48.118272,0 19.8353,48.118401,0 19.834485,48.118443,0 19.833112,48.118401,0 19.83191,48.118529,0 19.831352,48.118486,0 19.831009,48.118401,0 19.830322,48.1181,0 19.828777,48.117414,0 19.828219,48.117242,0 19.827962,48.117199,0 19.826803,48.117199,0 19.826417,48.11707,0 19.826031,48.116856,0 19.825172,48.116083,0 19.823713,48.115139,0 19.823027,48.114409,0 19.822491,48.114154,0 19.821825,48.113852,0 19.818563,48.112392,0 19.817533,48.111835,0 19.816418,48.111405,0 19.815645,48.110933,0 19.815302,48.110633,0 19.815001,48.110461,0 19.814143,48.110075,0 19.812684,48.109474,0 19.812083,48.109431,0 19.811997,48.109431,0 19.811997,48.109431,0 19.811806,48.109422,0 19.811691,48.109312,0 19.811729,48.109174,0
+				</coordinates>
+			</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>2023.05.26|Vizslás - Somlyóbánya|Etap-</name>
+			<styleUrl>#track_Etap</styleUrl>
+			<MultiGeometry>
+			<LineString>
+				<coordinates>
+					19.811783,47.979784,0 19.811912,47.979956,0 19.812255,47.980514,0 19.812641,47.981458,0 19.815173,47.989097,0 19.815259,47.989397,0 19.815946,47.991457,0 19.816418,47.992616,0 19.816504,47.992702,0 19.816632,47.992744,0 19.816761,47.992873,0 19.816718,47.993131,0 19.817319,47.994118,0 19.818006,47.995019,0 19.819765,47.997293,0 19.821868,47.999997,0 19.822426,48.000727,0 19.823413,48.002186,0 19.823842,48.00313,0 19.8241,48.003731,0 19.824228,48.00416,0 19.824228,48.004289,0 19.824271,48.004503,0 19.824486,48.006048,0 19.824657,48.006134,0 19.8247,48.00622,0 19.8247,48.006306,0 19.824657,48.006392,0 19.824529,48.006477,0 19.8244,48.006477,0 19.8244,48.006778,0 19.824228,48.007593,0 19.823842,48.009052,0 19.823627,48.009825,0 19.823241,48.011284,0 19.822683,48.013515,0 19.822555,48.013988,0 19.822555,48.014288,0 19.822683,48.014417,0 19.822683,48.014545,0 19.82264,48.014631,0 19.822555,48.014674,0 19.822426,48.014717,0 19.822297,48.014975,0 19.82204,48.015962,0 19.821739,48.01712,0 19.82161,48.017592,0 19.821353,48.018408,0 19.821181,48.018794,0 19.820709,48.019609,0 19.820237,48.020425,0 19.820323,48.020511,0 19.820366,48.020639,0 19.820323,48.020768,0 19.820151,48.020854,0 19.819937,48.020897,0 19.817791,48.024373,0 19.817533,48.024716,0 19.81719,48.02506,0 19.816246,48.025789,0 19.810925,48.029737,0 19.810152,48.030295,0 19.809122,48.031025,0 19.805861,48.033385,0 19.805174,48.033857,0 19.802427,48.035917,0 19.802942,48.036261,0 19.803329,48.036561,0 19.80526,48.038063,0 19.805689,48.038363,0 19.806805,48.039265,0 19.807534,48.039823,0 19.80792,48.04008,0 19.80835,48.040252,0 19.808779,48.040338,0 19.813929,48.041067,0 19.814186,48.04111,0 19.814658,48.041282,0 19.814916,48.04141,0 19.815087,48.041582,0 19.815345,48.041797,0 19.815388,48.041925,0 19.815474,48.042097,0 19.815516,48.042397,0 19.815516,48.04347,0 19.815559,48.043642,0 19.815903,48.044114,0 19.816289,48.044372,0 19.821568,48.047075,0 19.821782,48.047204,0 19.821782,48.04729,0 19.821782,48.048663,0 19.822383,48.048835,0 19.822941,48.048964,0 19.823713,48.048964,0 19.825924,48.048646,0 19.827111,48.048494,0
+				</coordinates>
+			</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>2023.05.26|Vizslás - Somlyóbánya|SS</name>
+			<styleUrl>#track_SS</styleUrl>
+			<MultiGeometry>
+			<LineString>
+				<coordinates>
+					19.827111,48.048494,0 19.827773,48.048407,0 19.82838,48.048357,0 19.828845,48.048376,0 19.830022,48.048491,0 19.830537,48.048491,0 19.831052,48.048406,0 19.831824,48.048148,0 19.831996,48.048062,0 19.834614,48.04656,0 19.835172,48.046389,0 19.835472,48.046346,0 19.835815,48.046389,0 19.836202,48.046474,0 19.837403,48.047032,0 19.838047,48.047247,0 19.838519,48.047333,0 19.839807,48.047419,0 19.840279,48.047504,0 19.840665,48.04759,0 19.841952,48.048148,0 19.842296,48.048234,0 19.843111,48.04832,0 19.845128,48.04832,0 19.847231,48.048363,0 19.847789,48.048277,0 19.84869,48.048105,0 19.849205,48.048148,0 19.849977,48.048277,0 19.850235,48.048363,0 19.850836,48.048663,0 19.851522,48.049221,0 19.849849,48.049822,0 19.848733,48.050294,0 19.84796,48.050466,0 19.8453,48.050852,0 19.844956,48.050938,0 19.844913,48.050938,0 19.844785,48.050981,0 19.844398,48.051152,0 19.844184,48.051367,0 19.843926,48.051667,0 19.843626,48.052311,0 19.843454,48.052568,0 19.843197,48.052783,0 19.841738,48.053813,0 19.841137,48.054457,0 19.840922,48.054628,0 19.839463,48.055143,0 19.838764,48.055478,0 19.837832,48.055959,0 19.836674,48.056345,0 19.836287,48.05656,0 19.835429,48.057117,0 19.834914,48.057547,0 19.834614,48.057847,0 19.834228,48.058233,0 19.833884,48.058491,0 19.833412,48.058748,0 19.833026,48.05892,0 19.831738,48.059435,0 19.831481,48.059649,0 19.831181,48.060036,0 19.830794,48.060465,0 19.829807,48.061323,0 19.829078,48.061924,0 19.827962,48.062868,0 19.82779,48.062954,0 19.827447,48.06304,0 19.827318,48.063126,0 19.827104,48.063383,0 19.826159,48.064842,0 19.825945,48.065143,0 19.825602,48.0654,0 19.825087,48.065658,0 19.820924,48.067932,0 19.820538,48.068104,0 19.819894,48.068533,0 19.819293,48.069005,0 19.818692,48.069391,0 19.818435,48.069606,0 19.818349,48.069692,0 19.818349,48.06982,0 19.818392,48.070035,0 19.818392,48.070207,0 19.818349,48.07025,0 19.81822,48.070292,0 19.818048,48.07025,0 19.817748,48.070078,0 19.817362,48.069992,0 19.817061,48.070078,0 19.81689,48.070164,0 19.816761,48.070421,0 19.816718,48.071151,0 19.816675,48.071365,0 19.81616,48.072395,0 19.815946,48.072653,0 19.815645,48.072867,0 19.815302,48.072996,0 19.814905,48.073095,0 19.813929,48.073339,0 19.813585,48.073468,0 19.813328,48.073597,0 19.813199,48.073769,0 19.813027,48.074155,0 19.81307,48.074412,0 19.813156,48.074799,0 19.81307,48.075056,0 19.812641,48.076258,0 19.812512,48.076515,0 19.81204,48.077073,0 19.81174,48.077803,0 19.811268,48.078146,0 19.811053,48.078361,0 19.81071,48.078961,0 19.810624,48.07909,0 19.810367,48.079991,0 19.810367,48.080893,0 19.81041,48.081193,0 19.810839,48.081665,0 19.811053,48.082266,0 19.81101,48.083124,0 19.810882,48.083854,0 19.810796,48.08394,0 19.810624,48.083982,0 19.810452,48.083982,0 19.810281,48.083897,0 19.80938,48.08321,0 19.809079,48.082952,0 19.808908,48.082695,0 19.808779,48.082609,0 19.808693,48.082609,0 19.808521,48.082609,0 19.808435,48.082652,0 19.80835,48.082695,0 19.80835,48.082781,0 19.808564,48.083124,0 19.80938,48.084283,0 19.810109,48.08497,0 19.810281,48.085184,0 19.81071,48.085227,0 19.810839,48.085227,0 19.811139,48.085184,0 19.811525,48.085141,0 19.811954,48.085098,0 19.812641,48.085098,0 19.813199,48.085012,0 19.813542,48.084927,0 19.813929,48.084712,0 19.8141,48.084626,0 19.814315,48.084583,0 19.814873,48.084626,0 19.815087,48.08454,0 19.815173,48.084283,0 19.815602,48.084326,0 19.815731,48.084326,0 19.81586,48.08424,0 19.815817,48.084068,0 19.815474,48.083854,0 19.815516,48.083725,0 19.815602,48.083682,0 19.816203,48.083897,0 19.816718,48.083897,0 19.81689,48.083854,0 19.81689,48.083811,0 19.816847,48.083768,0 19.816632,48.083639,0 19.816504,48.08351,0 19.816504,48.083382,0 19.816589,48.08321,0 19.816761,48.083124,0 19.816933,48.083124,0 19.817491,48.08321,0 19.817791,48.08321,0 19.818048,48.083253,0 19.81822,48.083339,0 19.818306,48.083425,0 19.818332,48.08349,0 19.818778,48.084583,0 19.81895,48.084841,0 19.81925,48.085055,0 19.819679,48.085184,0 19.82028,48.085227,0 19.820459,48.085318,0 19.820716,48.085745,0 19.821054,48.08605,0 19.821775,48.086252,0
+				</coordinates>
+			</LineString>
+			</MultiGeometry>
+		</Placemark>
+  </Folder>
+</Document>
+</kml>

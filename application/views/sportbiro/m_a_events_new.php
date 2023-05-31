@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col-12">
 				<div class="card">
-                    <form method="POST">
+                    <form method="POST" enctype="multipart/form-data">
 					<div class="card-header">
                         <button type="submit" class="btn btn-info">Mentés</button>
 						<a href="admin/events" class="btn btn-info">Mégse</a>
@@ -27,8 +27,12 @@
                             <input class="form-control form-control-lg" type="date" name="joinDate" value="<?=@$e['joinDate']?>"/>
                         </div>
                         <div class="mb-3">
-                            <label for="description">Esemény kezdete</label>
-                            <textarea class="form-control form-control-lg" name="description"><?=@$e['description']?></textarea>
+                            <label for="joinDate">Esemény képe</label>
+                            <input class="form-control form-control-lg" type="file" name="image" value="<?=@$e['image']?>"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="description">Esemény leírása</label>
+                            <textarea class="form-control form-control-lg" id="tinymce" name="description"><?=@$e['description']?></textarea>
                         </div>
 					</div>
                     </form>

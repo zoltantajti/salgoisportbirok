@@ -38,10 +38,6 @@
                     <i class="align-middle" data-feather="truck"></i> <span class="align-middle">Autóim</span>
                 </a>
             </li>
-
-            <li class="sidebar-header">
-				Pályabiztosítóim
-			</li>
             <li class="sidebar-item <?=($m == "secus") ? "active" : "" ?>">
 				<a class="sidebar-link" href="secus">
                     <i class="align-middle" data-feather="users"></i> <span class="align-middle">Pályabiztosítóim</span>
@@ -74,11 +70,6 @@
             <li class="sidebar-item <?=($m == "aevents") ? "active" : "" ?>">
 				<a class="sidebar-link" href="admin/events">
                     <i class="align-middle" data-feather="calendar"></i> <span class="align-middle">Események kezelése
-                </a>
-            </li>
-            <li class="sidebar-item <?=($m == "amembers") ? "active" : "" ?>">
-				<a class="sidebar-link" href="admin/joins">
-                    <i class="align-middle" data-feather="users"></i> <span class="align-middle">Jelentkezések kezelése
                 </a>
             </li>
             <?php }; if($perm == 99){ /*Webmester*/ ?>

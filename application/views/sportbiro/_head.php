@@ -13,7 +13,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 	<link href="./assets/css/custom.css" rel="stylesheet">
 	<link href="./assets/css/fa.all.min.css" rel="stylesheet">
-
+	<link href="./assets/third_party/leaflet/leaflet.css" rel="stylesheet">
 	<script src="./assets/js/jquery-1.11.1.min.js"></script>
 	<script src="./assets/js/jquery-ui-1.11.0.min.js"></script>
 	<script src="./assets/third_party/polygraph/polygraph.js"></script>
