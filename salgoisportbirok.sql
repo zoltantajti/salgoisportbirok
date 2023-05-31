@@ -11,7 +11,7 @@
  Target Server Version : 100424 (10.4.24-MariaDB)
  File Encoding         : 65001
 
- Date: 31/05/2023 13:21:01
+ Date: 31/05/2023 13:47:43
 */
 
 SET NAMES utf8mb4;
@@ -81,14 +81,14 @@ CREATE TABLE `event_schedule`  (
   `type` enum('center','TCIcon','StartIcon','FinishIcon','StopIcon','Radio','RadioJ','RadioLassit','RadioLRJ','TRACKLINE') CHARACTER SET utf8 COLLATE utf8_hungarian_ci NULL DEFAULT NULL,
   `description` longtext CHARACTER SET utf8 COLLATE utf8_hungarian_ci NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 283 CHARACTER SET = utf8 COLLATE = utf8_hungarian_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 284 CHARACTER SET = utf8 COLLATE = utf8_hungarian_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of event_schedule
 -- ----------------------------
-INSERT INTO `event_schedule` VALUES (1, 4, '47.934327,19.913104', 'TCIcon', NULL);
-INSERT INTO `event_schedule` VALUES (2, 4, '47.935381,19.912095', 'StartIcon', NULL);
-INSERT INTO `event_schedule` VALUES (3, 4, '47.951309,19.818654', 'FinishIcon', NULL);
+INSERT INTO `event_schedule` VALUES (1, 4, '47.934327,19.913104', 'TCIcon', 'Teszt User');
+INSERT INTO `event_schedule` VALUES (2, 4, '47.935381,19.912095', 'StartIcon', 'Safiék');
+INSERT INTO `event_schedule` VALUES (3, 4, '47.951309,19.818654', 'FinishIcon', 'Hauseresek');
 INSERT INTO `event_schedule` VALUES (4, 4, '47.953005,19.815345', 'StopIcon', NULL);
 INSERT INTO `event_schedule` VALUES (5, 4, '47.93674,19.908342', 'Radio', '2');
 INSERT INTO `event_schedule` VALUES (6, 4, '47.93983,19.903536', 'Radio', '3');
@@ -347,6 +347,7 @@ INSERT INTO `event_schedule` VALUES (279, 4, '47.951374,19.81792', 'TRACKLINE', 
 INSERT INTO `event_schedule` VALUES (280, 4, '47.951417,19.817748', 'TRACKLINE', '');
 INSERT INTO `event_schedule` VALUES (281, 4, '47.951632,19.817405', 'TRACKLINE', '');
 INSERT INTO `event_schedule` VALUES (282, 4, '47.952189,19.816976', 'TRACKLINE', '');
+INSERT INTO `event_schedule` VALUES (283, 4, '47.940990,19.910219', 'StartIcon', 'Alternatív rajt.');
 
 -- ----------------------------
 -- Table structure for event_schedule_bak

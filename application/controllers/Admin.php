@@ -111,11 +111,34 @@ class Admin extends CI_Controller {
         }
         elseif($f == "infos" && $id > 0)
         {
-            
+            echo("OK");
         }
         elseif($f == "schedule" && $id > 0)
         {
-            
+            $this->form_validation->set_rules('type','Típus','trim');
+
+            if(!$this->form_validation->run()){
+                $this->data['s'] = $this->Db->sqla("event_schedule","*","WHERE eventID='".$id."'");
+                $this->data['m'] = "event_schedule";
+                $this->load->view('sportbiro/index', $this->data);
+            }else{
+                $p = $this->input->post();
+                $a = array(
+                    "eventID" => $id,
+                    "point" => $p['point_lat'].",".$p['point_lon'],
+                    "type" => $p['type'],
+                    "description" => $p['description']
+                );
+                if($p['ftype'] == "edit"){
+                    $this->Db->update("event_schedule",$a,"WHERE id='".$p['fID']."'");
+                    $this->Msg->set("Sor módosítva: #" . $p['fID']."'","","success");
+                    redirect('admin/events/schedule/' . $id);
+                }else{
+                    $this->Db->insert("event_schedule",$a);
+                    $this->Msg->set("Új sor hozzáadva","","success");
+                    redirect('admin/events/schedule/' . $id);
+                };
+            }
         }
     }
     
