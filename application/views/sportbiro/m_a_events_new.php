@@ -27,6 +27,13 @@
                             <input class="form-control form-control-lg" type="date" name="joinDate" value="<?=@$e['joinDate']?>"/>
                         </div>
                         <div class="mb-3">
+                            <label for="joinDate">Térkép beállítások</label>
+                            <div class="input-group mb-3">
+                                <input class="form-control form-control-lg" type="text" name="mapCenter" value="<?=@$e['mapCenter']?>" placeholder="Középpont"/>
+                                <input class="form-control form-control-lg" type="number" min="8" max="14" step="1" name="mapZoom" value="<?=@$e['mapZoom']?>" placeholder="Nagyítás"/>
+                            </div>
+                        </div>
+                        <div class="mb-3">
                             <label for="joinDate">Esemény képe</label>
                             <input class="form-control form-control-lg" type="file" name="image" value="<?=@$e['image']?>"/>
                         </div>

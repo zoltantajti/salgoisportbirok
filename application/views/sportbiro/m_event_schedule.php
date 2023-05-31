@@ -9,6 +9,11 @@
 					</div>
 					<div class="card-body">
                         <?=$this->Msg->get()?>
+                        <div class="row mb-3">
+                            <div class="col-md-3 text-center">GPS Koordináta</div>
+                            <div class="col-md-3 text-center">Poszt típusa</div>
+                            <div class="col-md-3 text-center">Személyzet</div>
+                        </div>
                         <?php 
                         foreach($s as $k=>$v){ 
                             if($v['type'] != "TRACKLINE"){

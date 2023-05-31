@@ -35,7 +35,7 @@
 						<div id="map" style="height:360px;"></div>
 						<script src="./assets/third_party/leaflet/leaflet-src.js"></script>
 						<script>
-							var map = L.map('map').setView([47.9383716,19.8582951], 13);
+							var map = L.map('map').setView([<?=$e['mapCenter']?>], <?=$e['mapZoom']?>);
 							L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 19,attribution: ''}).addTo(map);
 							var TCIcon = L.icon({iconUrl: "assets/img/mapmarkers/TC.png",shadowUrl: "",iconSize: [16,16],iconAnchor: [8,8],shadowAnchor: [0,0],popupAnchor: [0,0]});
 							var StartIcon  = L.icon({iconUrl: "assets/img/mapmarkers/Start.png",shadowUrl: "",iconSize: [16,16],iconAnchor: [8,8],shadowAnchor: [0,0],popupAnchor: [0,0]});

@@ -11,7 +11,7 @@
  Target Server Version : 100424 (10.4.24-MariaDB)
  File Encoding         : 65001
 
- Date: 31/05/2023 13:47:43
+ Date: 31/05/2023 13:58:08
 */
 
 SET NAMES utf8mb4;
@@ -385,13 +385,16 @@ CREATE TABLE `events`  (
   `location` varchar(255) CHARACTER SET utf8 COLLATE utf8_hungarian_ci NULL DEFAULT NULL,
   `description` longtext CHARACTER SET utf8 COLLATE utf8_hungarian_ci NULL,
   `image` varchar(255) CHARACTER SET utf8 COLLATE utf8_hungarian_ci NULL DEFAULT NULL,
+  `mapCenter` varchar(255) CHARACTER SET utf8 COLLATE utf8_hungarian_ci NULL DEFAULT NULL,
+  `mapZoom` int NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8 COLLATE = utf8_hungarian_ci ROW_FORMAT = DYNAMIC;
+) ENGINE = InnoDB AUTO_INCREMENT = 6 CHARACTER SET = utf8 COLLATE = utf8_hungarian_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of events
 -- ----------------------------
-INSERT INTO `events` VALUES (4, 'Teszt Rally', '2023-06-29', '2023-06-10', 'Salgótarján, Hungary', '<p>Ez csak egy teszt!</p>', './assets/img/events/fejlec_salgo_rally_2023.jpg');
+INSERT INTO `events` VALUES (4, 'Teszt Rally', '2023-06-29', '2023-06-10', 'Salgótarján, Hungary', '<p>Ez csak egy teszt!</p>', './assets/img/events/fejlec_salgo_rally_2023.jpg', '47.9383716,19.8582951', 13);
+INSERT INTO `events` VALUES (5, 'East Rally 2023', '2023-07-15', '2023-07-01', 'Eger', '<p>M&eacute;g nincs bővebb inform&aacute;ci&oacute; a versenyről!</p>', './assets/img/events/fejlec_east_rally_2023.jpg', '47.9212154,20.3175928', 9);
 
 -- ----------------------------
 -- Table structure for permissions

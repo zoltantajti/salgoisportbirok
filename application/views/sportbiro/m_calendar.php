@@ -3,7 +3,7 @@
 		<h1 class="h3 mb-3">Eseménynaptár</h1>
 		<div class="row">
             <?php foreach($e as $k=>$v){ ?>
-			<div class="col-12 col-md-4">
+			<div class="col-12 col-lg-4">
 				<div class="card">
 					<img src="<?=$v['image']?>" class="card-img-top" alt="">	
 					<div class="card-header text-center">
@@ -20,9 +20,9 @@
                             <center>
                                 <a href="event/<?=$v['id']?>" class="btn btn-info">Részletek<a>
                                 <?php if(!$this->Events->hasEventByUserId($_SESSION['user']['ID'], $v['id'])){ ?>
-									<a href="event/<?=$v['id']?>/join" class="btn btn-info">Jelentkezem<a>
+									<a href="event/<?=$v['id']?>/join" class="btn btn-info">Jelentkezem</a>
 								<?php }else{ ?>
-									<a href="javascript:;" disabled class="btn btn-success disabled btn-disabled">Jelentkeztél!<a>
+									<a href="javascript:;" disabled class="btn btn-success disabled btn-disabled">Jelentkeztél!</a>
 								<?php }; ?>
                             </center>
                         <?php }; ?>
