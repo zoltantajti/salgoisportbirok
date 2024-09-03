@@ -33,7 +33,7 @@ CREATE TABLE `credentials`  (
 -- ----------------------------
 -- Records of credentials
 -- ----------------------------
-INSERT INTO `credentials` VALUES (1, 'zoltan.tajti92@gmail.com', '178aea561001debe92486ee54d6a986349dfd210c93d746ee8967845fcbdae2dd2f335334fd21e5a020e951cb1d9bd304a2db924228a2976dcde03d48228c594', 4, 1);
+INSERT INTO `credentials` VALUES (1, 'zoltan.tajti92@gmail.com', '**censored**', 4, 1);
 
 -- ----------------------------
 -- Table structure for event_infos
@@ -494,7 +494,7 @@ CREATE TABLE `user_cars`  (
 -- ----------------------------
 -- Records of user_cars
 -- ----------------------------
-INSERT INTO `user_cars` VALUES (1, 1, 0, 'H', 'GTJ-904', 'Volkswagen', 'Polo 1.4 kat');
+INSERT INTO `user_cars` VALUES (1, 1, 0, 'H', '**Censored**', 'Volkswagen', 'Polo 1.4 kat');
 
 -- ----------------------------
 -- Table structure for user_profile
@@ -520,6 +520,6 @@ CREATE TABLE `user_profile`  (
 -- ----------------------------
 -- Records of user_profile
 -- ----------------------------
-INSERT INTO `user_profile` VALUES (1, 1, 'Tajti Zoltán', 4686, '875033HA', '1992-09-10', 'Salgótarján', 3065, 'Pásztó-Hasznos', 'Vár utca 117.', '06305805547', '123456789', '044744016');
+INSERT INTO `user_profile` VALUES (1, 1, 'Tajti Zoltán', 000, '**censored***', '1992-09-10', 'Salgótarján', 0000, '**censored***', '**censored***', '**censored***', '**censored***', '**censored***');
 
 SET FOREIGN_KEY_CHECKS = 1;
